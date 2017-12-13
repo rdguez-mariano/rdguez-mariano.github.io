@@ -2,7 +2,7 @@
 layout: default2
 title: "Contact"
 header-img: "img/paris.jpg"
-pathdownload: "cv.pdf"
+pathdownload: "/cv.pdf"
 textdownload: "Full Resumé / CV"
 ---
 <!-- <center><a href="cv.pdf">Full Resumé / CV </a> </center>-->

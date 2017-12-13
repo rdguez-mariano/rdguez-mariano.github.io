@@ -1,5 +1,5 @@
 span.undefined { }
-.bibtable {width:100%; margin: 0 auto; clear: both;}
+.bibtable {width:100%; margin: 0 auto; clear: both; }
 .bibchart { width: 100%; height: 100px; margin-bottom: 20px;}
 .clear {clear:both;}
 .year { position: relative; height: 100%; border-bottom: 1px solid black; display: inline-block;}
@@ -14,7 +14,7 @@ span.undefined { }
 .techreport { background-color: #b77; }
 .legend .pub { width: 10px; height: 10px; display: inline-block; margin: 0 5px 0 15px;}
 .legend { margin-bottom: 20px; text-align: center; width: 100%;}
-table.display thead th { padding: 3px 18px 3px 10px; border-bottom: 1px solid black; border-top: 1px solid black; font-weight: bold; cursor: pointer; cursor: hand; }
+table.display thead th { padding: 3px 18px 3px 10px; border-bottom: 1px solid black; border-top: 1px solid black; font-weight: bold; cursor: pointer; cursor: hand; background-color: #212121;}
 table.display tfoot th { padding: 3px 10px; border-top: 1px solid black; font-weight: bold; }
 table.display td { padding: 3px 10px; }
 table.display td.center { text-align: center; }
