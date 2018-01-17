@@ -15,28 +15,29 @@ We propose a mathematical method to analyze the numerous algorithms performing I
 
 
 
-**Links to code and documentation will be soon available !**
+#### Finding near optimal coverings (C++ code)
+C++ code for finding near optimal coverings based on radius (initial visibility) and the region to cover.
+<center><a href="data/imas/opt_covering.zip">opt_covering.zip</a></center>
+This code doesn't have any documentation available but there exist a pseudo-code that has been published in IPOL [(See this article's web page)](/hyperdescriptors). Executing the program is very simple, the syntax is:
+```
+r=1.6           %radius of disks
+region=4.5      % region to be covered
+N=2             % number of groups of concentric disks
 
-#### Standalone IMAS
-Standalone C++ code for IMAS (as in IPOL) implementing Fast-Affine-{SIFT, RootSIFT, HalfSIFT, SURF}
+epsilon         % Parameter for discretising annulus.
+                % Used to check for covering conditions
 
-#### IMAS with OpenCV
-C++ code for IMAS based on OpenCV 3.2 implementing Fast-Affine-{SIFT, RootSIFT, HalfSIFT, SURF, FREAK, LATCH, AKAZE, BRISK, ORB, BRIEF, LUCID, DAISY, AGAST}
+./opt_covering $r $region $epsilon $N
+```
 
-#### IMAS on MATLAB
-MATLAB code for IMAS. This will run through MEX based on both formers C++ implementations of IMAS.
+Extract and compile in linux with :
+```
+mkdir -p build && cd build && cmake .. && make
+```
 
-#### Documentation
-Here's a doxygen documentation for both C++ IMAS codes: Standalone and OpenCV.
+#### Visualising non optimal and near optimal coverings (Matlab code)
+Here you will find former coverings proposed in the literature and some of the near optimal coverings found in this work. All those coverings can be visualised in matlab with the following matlab functions and script: <center><a href="data/imas/ploting_coverings.zip">ploting_coverings.zip</a></center>
 
-#### Optimizing Coverings
-C++ code for finding near optimal coverings based on radius (initial visibility) and the region to covered.
+ Modify (if needed) and execute the script **"coverings2file_auto.m"** to visually generate coverings in 2D and 3D.  Those visualising functions are very demanding in terms of memory (Sorry about that !). You might want to disable 3D visualisation by modifying the script.
 
-#### Near Optimal Coverings
-Visualizing some of the near optimal coverings found in this work. The following links will be web pages from jupyter notebooks so it might take some time to load for slow connections.
-
-#### Literature Coverings
-Visualizing former coverings proposed in the literature. The following links will be web pages from jupyter notebooks so it might take some time to load for slow connections.
-
-#### Applications
-Soon you will find here some Applications of IMAS
+ The reader will also notice that the variables "covering" and "filename" in the script are used to control which coverings will be printed from "get_feasible_covering.m" and "get_literature_covering.m".

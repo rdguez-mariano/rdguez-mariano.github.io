@@ -13,6 +13,10 @@ This work can be found [here](/imas)
 
 Fast IMAS with hyper-descriptors
 ===================
+*Abstract*:
+To be updated !!!
+
+This work can be found [here](/hyperdescriptors)
 **To be published soon**
 
 [^1]: Image Matching by Affine Simulation
