@@ -18,19 +18,19 @@ We propose a mathematical method to analyze the numerous algorithms performing I
 #### Finding near optimal coverings (C++ code)
 C++ code for finding near optimal coverings based on radius (initial visibility) and the region to cover.
 <center><a href="data/imas/opt_covering.zip">opt_covering.zip</a></center>
-This code doesn't have any documentation available but there exist a pseudo-code that has been published in IPOL [(See this article's web page)](/hyperdescriptors). Executing the program is very simple, the syntax is:
+This code doesn't have any documentation available but there exist a pseudo-code that has been published in IPOL [(See its web page)](/hyperdescriptors). Executing the program is very simple, the syntax is:
 ```
-r=1.6           %radius of disks
-region=4.5      % region to be covered
-N=2             % number of groups of concentric disks
+r=1.6           # radius of disks
+region=4.5      # region to be covered
+N=2             # number of groups of concentric disks
 
-epsilon         % Parameter for discretising annulus.
-                % Used to check for covering conditions
+epsilon         # Parameter for discretising annulus.
+                # Used to check for covering conditions
 
 ./opt_covering $r $region $epsilon $N
 ```
 
-Extract and compile in linux with :
+Extract first and then compile in linux with :
 ```
 mkdir -p build && cd build && cmake .. && make
 ```
