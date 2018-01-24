@@ -2525,6 +2525,7 @@ var bibtexify = (function($) {
       str = str.replace('Journal of Mathematical Imaging and Vision', '<a href="http://www.springer.com/computer/image+processing/journal/10851">Journal of Mathematical Imaging and Vision</a>')
       .replace('Information and Inference', '<a href="http://imaiai.oxfordjournals.org/">Information and Inference</a>')
       .replace('SIAM Journal on Scientific Computing', '<a href="http://www.siam.org/journals/sisc.php">SIAM Journal on Scientific Computing</a>')
+      .replace('Image Processing On Line', '<a href="http://www.ipol.im">Image Processing On Line</a>')
       .replace('SIAM Journal on Imaging Sciences', '<a href="http://www.siam.org/journals/siims.php">SIAM Journal on Imaging Sciences</a>')
       .replace('Foundations of Computational Mathematics', '<a href="http://www.springer.com/mathematics/computational+science+%26+engineering/journal/10208">Foundations of Computational Mathematics</a>')
       .replace('Statistica Sinica', '<a href="http://www3.stat.sinica.edu.tw/statistica/">Statistica Sinica</a>')
@@ -2563,12 +2564,14 @@ var bibtexify = (function($) {
         str = str.replace('G. Peyr&eacute;', '<a href="http://gpeyre.github.io">G. Peyr&eacute;</a>')
         .replace('C. Dossal', '<a href="http://www.math.u-bordeaux1.fr/%7edossal/">C. Dossal</a>')
         .replace('J. Fadili', '<a href="http://www.greyc.ensicaen.fr/%7ejfadili/">J. Fadili</a>')
+        .replace('Julie Delon', '<a href="https://delon.wp.imt.fr/">J. Delon</a>')
+        .replace('Jean-Michel Morel', '<a href="https://sites.google.com/site/jeanmichelmorelcmlaenscachan/">JM. Morel</a>')
         .replace('H. Raguet', '<a href="http://www.ceremade.dauphine.fr/%7eraguet/">H. Raguet</a>')
         .replace('J. Rabin', '<a href="https://sites.google.com/site/rabinjulien/">J. Rabin</a>')
         .replace('S. Vaiter', '<a href="http://samuelvaiter.com/">S. Vaiter</a>')
         .replace('N. Schmidt', '<a href="http://www.ceremade.dauphine.fr/%7eschmidt/">N. Schmidt</a>')
         .replace('Y. Fregnac', '<a href="http://www.unic.cnrs-gif.fr/people/Yves_Fr%C3%A9gnac/">Y. Fregnac</a>')
-        .replace('J. Delon', '<a href="http://perso.telecom-paristech.fr/%7edelon/Site/Home.html">J. Delon</a>')
+        .replace('J. Delon', '<a href="https://delon.wp.imt.fr/">J. Delon</a>')
         .replace('M. Bernot', '<a href="http://www.umpa.ens-lyon.fr/labo.php?login=mbernot">M. Bernot</a>')
         .replace('S. Bougleux', '<a href="http://greyc.stlo.unicaen.fr/bougleux/">S. Bougleux</a>')
         .replace('L. D. Cohen', '<a href="http://www.ceremade.dauphine.fr/%7ecohen/">L. D. Cohen</a>')
@@ -2689,23 +2692,26 @@ var bibtexify = (function($) {
         },
         // adds the bibtex link and the opening div with bibtex content
         bibtex: function(entryData) {
-            var itemStr = '';
-            itemStr += ' (<a title="This article as BibTeX" href="#" class="biblink">' +
-                        'bib</a>)<div class="bibinfo hidden">';
-            itemStr += '<a href="#" class="bibclose" title="Close">x</a><pre>';
-            itemStr += '@' + entryData.entryType + "{" + entryData.cite + ",\n";
+            var itemStr2 = '';
+            itemStr2 += '@' + entryData.entryType + "{" + entryData.cite + ",\n";
             $.each(entryData, function(key, value) {
                 if (key == 'author') {
-                    itemStr += '  author = { ';
+                    itemStr2 += '  author = { ';
                     for (var index = 0; index < value.length; index++) {
-                        if (index > 0) { itemStr += " and "; }
-                        itemStr += value[index].last;
+                        if (index > 0) { itemStr2 += " and "; }
+                        itemStr2 += value[index].last;
                     }
-                    itemStr += ' },\n';
+                    itemStr2 += ' },\n';
                 } else if (key != 'entryType' && key != 'cite') {
-                    itemStr += '  ' + key + " = { " + value + " },\n";
+                    itemStr2 += '  ' + key + " = { " + value + " },\n";
                 }
             });
+
+            var itemStr = '';
+            itemStr += ' (<a title="This article as BibTeX" href="data:application/octet-stream;charset=utf-8,'+encodeURIComponent(itemStr2)+'" class="biblink">' +
+                        'bib</a>)<div class="bibinfo hidden">';
+            itemStr += '<pre>';
+            itemStr += itemStr2;
             itemStr += "}</pre></div>";
             return itemStr;
         },
