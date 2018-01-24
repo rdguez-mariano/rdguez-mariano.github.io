@@ -2564,8 +2564,8 @@ var bibtexify = (function($) {
         str = str.replace('G. Peyr&eacute;', '<a href="http://gpeyre.github.io">G. Peyr&eacute;</a>')
         .replace('C. Dossal', '<a href="http://www.math.u-bordeaux1.fr/%7edossal/">C. Dossal</a>')
         .replace('J. Fadili', '<a href="http://www.greyc.ensicaen.fr/%7ejfadili/">J. Fadili</a>')
-        .replace('Julie Delon', '<a href="https://delon.wp.imt.fr/">J. Delon</a>')
-        .replace('Jean-Michel Morel', '<a href="https://sites.google.com/site/jeanmichelmorelcmlaenscachan/">JM. Morel</a>')
+        .replace('Julie Delon', '<a href="https://delon.wp.imt.fr/">Julie Delon</a>')
+        .replace('Jean-Michel Morel', '<a href="https://sites.google.com/site/jeanmichelmorelcmlaenscachan/">Jean-Michel Morel</a>')
         .replace('H. Raguet', '<a href="http://www.ceremade.dauphine.fr/%7eraguet/">H. Raguet</a>')
         .replace('J. Rabin', '<a href="https://sites.google.com/site/rabinjulien/">J. Rabin</a>')
         .replace('S. Vaiter', '<a href="http://samuelvaiter.com/">S. Vaiter</a>')
@@ -2708,7 +2708,7 @@ var bibtexify = (function($) {
             });
 
             var itemStr = '';
-            itemStr += ' (<a title="This article as BibTeX" href="data:application/octet-stream;charset=utf-8,'+encodeURIComponent(itemStr2)+'" class="biblink">' +
+            itemStr += ' (<a title="Download this article as BibTeX" href="data:application/octet-stream;charset=utf-8,'+encodeURIComponent(itemStr2)+'" class="biblink">' +
                         'bib</a>)<div class="bibinfo hidden">';
             itemStr += '<pre>';
             itemStr += itemStr2;

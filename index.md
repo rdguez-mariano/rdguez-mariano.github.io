@@ -1,7 +1,7 @@
 ---
 layout: default2
 title: "Welcome"
-header-img: "img/paris.jpg"
+header-img: "/img/paris.jpg"
 ---
 
 <div style="float:left; width:175px" > <img src="/img/mariano.jpg" alt="Mariano Rodríguez" width="140px"></div>

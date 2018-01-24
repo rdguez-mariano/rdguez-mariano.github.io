@@ -1,8 +1,8 @@
 ---
 layout: default2
 title: "Research"
-header-img: "img/paris.jpg"
-pathdownload: "data/tests_newIMAS_vs_oldIMAS.zip"
+header-img: "/img/paris.jpg"
+pathdownload: "/data/tests_newIMAS_vs_oldIMAS.zip"
 textdownload: "Tests"
 ---
 
@@ -13,7 +13,7 @@ Fast IMAS with hyper-descriptors
 *Abstract*:
 To be updated !!!
 
-<center><a href="/hyperdescriptors">See this article on HAL</a></center>
+<center><a href="/pages/hyperdescriptors">See this article on HAL</a></center>
 
 
 

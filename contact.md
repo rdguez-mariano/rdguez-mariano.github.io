@@ -19,9 +19,6 @@ Studies
 Where to find me
 --------------
 
-- [\[CMLA, ENS Paris-Saclay\]](http://cmla.ens-paris-saclay.fr/) - 61, avenue du Président Wilson, 94235 Cachan cédex
-- [\[MAP5, Université Paris Descartes\]](http://map5.mi.parisdescartes.fr/) - 45, rue des Saints Pères, 75270 Paris Cedex 06
-
 <style>
     .google-maps {
         position: relative;
@@ -38,13 +35,13 @@ Where to find me
     }
 </style>
 
-<p><strong> CMLA, ENS Paris-Saclay  </strong></p>
+- [CMLA, ENS Paris-Saclay](http://cmla.ens-paris-saclay.fr/) - 61, avenue du Président Wilson, 94235 Cachan cédex
 <div class="google-maps">
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d59425.13630063927!2d2.3218033611921696!3d48.83446903157823!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9fa50097ff8f105a!2s%C3%89cole+Normale+Sup%C3%A9rieure+de+Cachan!5e0!3m2!1ses!2sfr!4v1467472198512" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
-
-<p><strong> MAP5, Université Paris Descartes </strong></p>
+<p> </p>
+- [MAP5, Université Paris Descartes](http://map5.mi.parisdescartes.fr/) - 45, rue des Saints Pères, 75270 Paris Cedex 06
 <div class="google-maps">
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48526.482485272456!2d2.3124297505927816!3d48.85648882656041!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2ec1dac30399f945!2sUniversit%C3%A9+Paris+DESCARTES+-+U.F.R.+Math%C3%A9matiques+et+Informatique!5e0!3m2!1ses!2sfr!4v1467472086227" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>			      			  		</div>   	
 
