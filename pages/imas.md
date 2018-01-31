@@ -74,8 +74,8 @@ The figures and test in this paper were obtained by executing the following code
 
 ```matlab
 opts_maxtilt.draw_on = true;
-anglevec = 0:10:180;
-tvec = 1.4:0.1:2.4;
+anglevec = 0:10:170;
+tvec = 1.2:0.1:2.4;
 
 figure;
 [Mbool, Mval, RADIUS ] =   tolerance_tests(tvec,anglevec,opts_maxtilt);
