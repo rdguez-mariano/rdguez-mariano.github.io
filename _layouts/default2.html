@@ -49,12 +49,18 @@
       </section>
     </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-		{% include footer.html %}
-      </footer>
-    </div>
-
   </body>
+  <!-- FOOTER  -->
+  <div id="footer_wrap" class="outer">
+    <footer class="inner">
+  {% include footer.html %}
+    </footer>
+  </div>
+
+  
+  <!-- Bootstrap Core JavaScript -->
+  <script src="{{ "/js/bootstrap.js " | prepend: site.baseurl }}"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script src="{{ "/js/clean-blog.js " | prepend: site.baseurl }}"></script>
 </html>
