@@ -21,10 +21,12 @@ h6 {
   font-weight: 800;
 }
 a {
+  font-weight: 800;
   /* color: #404040; */
 }
 a:hover,
 a:focus {
+  font-weight: 800;
   /* color: #0085a1; */
 }
 a img:hover,
