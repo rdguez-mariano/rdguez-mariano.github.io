@@ -2564,6 +2564,8 @@ var bibtexify = (function($) {
         str = str.replace('G. Peyr&eacute;', '<a href="http://gpeyre.github.io">G. Peyr&eacute;</a>')
         .replace('C. Dossal', '<a href="http://www.math.u-bordeaux1.fr/%7edossal/">C. Dossal</a>')
         .replace('J. Fadili', '<a href="http://www.greyc.ensicaen.fr/%7ejfadili/">J. Fadili</a>')
+		.replace('Ángela Léon Mecías', '<a href="https://www.researchgate.net/profile/Angela_Leon_Mecias">Ángela Léon Mecías</a>')
+		.replace('Mariano Rodríguez Ricard', '<a href="https://www.linkedin.com/in/mariano-rodriguez-ricard-aa5843b1/">Mariano Rodríguez Ricard</a>')
         .replace('Julie Delon', '<a href="https://delon.wp.imt.fr/">Julie Delon</a>')
         .replace('Jean-Michel Morel', '<a href="https://sites.google.com/site/jeanmichelmorelcmlaenscachan/">Jean-Michel Morel</a>')
         .replace('H. Raguet', '<a href="http://www.ceremade.dauphine.fr/%7eraguet/">H. Raguet</a>')
