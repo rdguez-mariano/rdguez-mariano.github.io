@@ -8,7 +8,8 @@ header-img: "/img/paris.jpg"
 
 ### Research pages
 - [Covering the Space of Tilts.](/pages/imas)
-- [Fast IMAS with hyper-descriptors.](/pages/hyperdescriptors)
+- [Fast affine invariant image matching.](/pages/hyperdescriptors)
+- [Affine invariant image comparison under repetitive structures](/pages/acdesc)
 
 ### Teaching assistant at the ENS Paris-Saclay
 - **Analyse de Fourier et Hilbertienne** (Sep. 2017 - Jan. 2018). *Department of Mathematics, ENS Paris-Saclay.*
