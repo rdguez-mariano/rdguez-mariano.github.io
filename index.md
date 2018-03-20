@@ -14,13 +14,13 @@ Mariano Rodríguez
 
 
 Highlights
-====================
+---
 
 - My research on Image Matching by Affine Simulation (IMAS) is now available [here](/research).
 - My Publications can be found <a href="{{ site.baseurl }}/publications">here</a>.
 
 
 Living in Paris
-====================
+---
 
 <img src="/img/paris.jpg" alt="Paris">

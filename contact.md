@@ -2,10 +2,17 @@
 layout: default2
 title: "Contact"
 header-img: "img/paris.jpg"
-pathdownload: "/cv.pdf"
-textdownload: "Full Resumé / CV"
 ---
 <!-- <center><a href="cv.pdf">Full Resumé / CV </a> </center>-->
+
+Full-Resumé
+-----------
+
+<center>
+<a href="/data/cv.pdf">English Version</a>
+<p></p>
+<a href="/data/cv_french.pdf">Version Française</a>
+</center>
 
 Studies
 --------------
