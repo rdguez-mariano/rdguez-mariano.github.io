@@ -1,3 +1,5 @@
+<section id="main_content" class="inner">
+<hr width="50%">
 <center>
 {% if site.linkedin_username %}
 <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">[ View on LinkedIn ]</a>
@@ -8,43 +10,6 @@
 {% endif %}
 </center>
 
-
-  <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">
-                    <!-- {% if site.twitter_username %}
-                    <li>
-                        <a href="https://twitter.com/{{ site.twitter_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
-                    {% if site.facebook_username %}
-                    <li>
-                        <a href="https://www.facebook.com/{{ site.facebook_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
-
-                    <li>
-                        <a href="https://github.com/{{ site.github_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li> -->
-
-                  <p class="copyright text-muted">&copy; {{ site.title }} {{ site.time | date: '%Y' }}</p>
-                </ul>
-            </div>
-        </div>
-    </div>
+<center>
+<p class="copyright text-muted">&copy; {{ site.title }} {{ site.time | date: '%Y' }}</p>
+</center>

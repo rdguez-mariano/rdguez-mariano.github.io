@@ -11,7 +11,8 @@ Fast Affine Invariant Image Matching
 *Abstract*:
 Methods performing  Image Matching by Affine Simulation (IMAS) attain affine invariance by applying a finite set of affine transforms to the images before comparing them with a   Scale Invariant Image Matching  (SIIM) method like SIFT or SURF. We describe here how  to optimize IMAS methods. First, we detail an algorithm computing a minimal discrete set of affine transforms to be applied to each image before comparison.  It yields a full practical affine invariance at the lowest computational cost.  The matching complexity of current IMAS algorithms is divided by about 4. Our approach also associates to each image an affine invariant set of descriptors, which is twice smaller than the set of descriptors usually used in IMAS methods, and only 6.4 times larger than the set of similarity invariant descriptors of SIIM methods. In order to reduce the number of false matches, which are inherently more frequent in IMAS approaches than in SIIM, we introduce the notion of hyper-descriptor, which groups descriptors whose keypoints are spatially close. Finally, we also propose a matching criterion allowing each keypoint of the query image to be matched with several keypoints of the target image, in order to deal with situations where an object is repeated several times in the target image.
 
-<center><a href="/pages/hyperdescriptors">See this article on IPOL</a></center>
+<center><a href="/pages/hyperdescriptors">See this article</a> <small>(on IPOL)</small></center>
+<center><a href="http://ipolcore.ipol.im/demo/clientApp/demo.html?id=77777000011">Test it online</a> <small>(on IPOL)</small></center>
 <center><a href="https://github.com/rdguez-mariano/fast_imas_IPOL">Source code</a> <small>(on Github)</small></center>
 
 <p></p>
@@ -21,7 +22,7 @@ The above source code is a standalone C++ code for IMAS (as in IPOL) implementin
 
 
 ### IMAS on MATLAB
-MATLAB code for IMAS. This will run through MEX based on both formers C++ implementations of IMAS (standalone or opencv). You can find the MATLAB function **"perform_IMAS.m"** in the following repository: [imas_analytics](https://github.com/rdguez-mariano/imas_analytics).
+To have access to IMAS on MATLAB we propose to use the MEX compiler. The original code of both C++ implementations of IMAS (standalone or opencv) is handled through the MATLAB function **"perform_IMAS.m"** in the following repository: [imas_analytics](https://github.com/rdguez-mariano/imas_analytics).
 
 *Remark: Follow the instructions in this repo to properly set up the link between IMAS and MATLAB.*
 
@@ -52,8 +53,8 @@ MATLAB code for IMAS. This will run through MEX based on both formers C++ implem
 
 ### About [ASIFT](http://demo.ipol.im/demo/my_affine_sift/)
 The present IMAS version shares with ASIFT the idea of simulating affine distortions. Two main differences are observed:
-* The set of affine simulations. ASIFT generates overlapping affine distortions whereas this IMAS version applies near optimal coverings as in [Covering the Space of Tilts.](/pages/imas).
-* The structure. ASIFT applies the SIFT method among all possible combinations of simulated query and target images; whereas this IMAS version extracts all descriptors coming from all simulated images, stores them into hyper-descriptors belonging to either query or target images, and then compares the two sets of hyper-descriptors with an IMAS-Matcher.
+* **The set of affine simulations**. ASIFT generates overlapping affine distortions whereas this IMAS version applies near optimal coverings as in the paper [Covering the Space of Tilts](/pages/imas).
+* **The structure**. ASIFT applies the SIFT method among all possible combinations of simulated query and target images; whereas this IMAS version compares in a single stage both set of hyper-descriptors coming from the query and target images.
 
 #### Reproducing our comparison to ASIFT
 To reproduce our results concerning ASIFT you can download the following file: [tests_newIMAS_vs_oldIMAS.zip](/data/tests_newIMAS_vs_oldIMAS.zip). This file contains the ASIFT code modified only to activate/deactivate filters, to obtain a more verbose mode, to add more descriptors (i.e. RootSIFT, HALF-SIFT), to select different coverings, etc. In any case, this version of ASIFT is a more complete one than the one proposed in [IPOL](http://www.ipol.im/pub/art/2011/my-asift/). Once extracted, execute the following bash scripts:
