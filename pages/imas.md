@@ -1,11 +1,16 @@
 ---
 layout: default2
-title: "Research"
+title: "Research Paper"
 header-img: "/img/paris.jpg"
 ---
 
 Covering the Space of Tilts
 ====================
+
+*Full Title*: "Covering the Space of Tilts: Application to affine invariant image comparison"
+
+*Authors*: Mariano Rodríguez, Julie Delon and Jean-Michel Morel
+
 *Journal*: [SIIMS](https://www.siam.org/journals/siims.php)
 
 *Abstract*:

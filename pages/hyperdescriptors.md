@@ -1,11 +1,15 @@
 ---
 layout: default2
-title: "Research"
+title: "Research Paper"
 header-img: "/img/paris.jpg"
 ---
 
 Fast Affine Invariant Image Matching
 ===================
+*Full Title*: "Fast Affine Invariant Image Matching"
+
+*Authors*: Mariano Rodríguez, Julie Delon and Jean-Michel Morel
+
 *Journal*: [IPOL](http://www.ipol.im/)
 
 *Abstract*:

@@ -1,11 +1,16 @@
 ---
 layout: default2
-title: "Research"
+title: "Research Paper"
 header-img: "/img/paris.jpg"
 ---
 
 Affine invariant image comparison under repetitive structures
 ===================
+
+*Full Title*: "Affine invariant image comparison under repetitive structures"
+
+*Authors*: Mariano Rodríguez and Rafael Grompone von Gioi
+
 *Conference*: [ICIP](https://2018.ieeeicip.org/)
 
 *Abstract*:

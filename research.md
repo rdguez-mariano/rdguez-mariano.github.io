@@ -7,8 +7,8 @@ header-img: "/img/paris.jpg"
 <center><a href="{{ site.baseurl }}/publications">List of Publications</a></center>
 
 ### Research pages
-- [Covering the Space of Tilts.](/pages/imas)
-- [Fast affine invariant image matching.](/pages/hyperdescriptors)
+- [Covering the Space of Tilts](/pages/imas)
+- [Fast affine invariant image matching](/pages/hyperdescriptors)
 - [Affine invariant image comparison under repetitive structures](/pages/acdesc)
 
 ### Teaching assistant at the ENS Paris-Saclay
