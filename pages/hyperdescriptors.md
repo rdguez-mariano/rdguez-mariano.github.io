@@ -2,6 +2,8 @@
 layout: default2
 title: "Research Paper"
 header-img: "/img/paris.jpg"
+nextpage: "/pages/acdesc"
+prevpage: "/pages/imas"
 ---
 
 Fast Affine Invariant Image Matching

@@ -45,6 +45,15 @@
               <a href="{{ page.pathdownload }}">{{ page.textdownload }}</a>
             </section>
 {% endif %}
+
+{% if page.prevpage %}
+<div style="float:left;" > <a href="{{ page.prevpage }}"> <-- Prev</a></div>
+{% endif %}
+
+{% if page.nextpage %}
+<div style="float:right;" > <a href="{{ page.nextpage }}">Next --> </a></div>
+{% endif %}
+
 </div>
 </div>
 </div>
