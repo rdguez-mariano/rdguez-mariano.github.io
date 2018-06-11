@@ -34,7 +34,7 @@ repetitive structures.
 ### Estimating tilt tolerances
 In order to estimate the tilt tolerance of AC-Q, AC-W, SIFT, and RootSIFT, under repetitive structures, a MATLAB function in our **Tester source code** was used. The github repository already comes with the image data base proposed in this paper. They are called upon by **"tolerance_test_ICIP.m"** .
 
-Use the following code to reproduce our results !
+Use the following code to reproduce our tests !
 
 ```matlab
 num_test = 100;
@@ -170,3 +170,12 @@ plot(tvec,matrixgood(:,4),'-ok');
         xticklabels(label)
 title('Good')
 ```
+
+
+
+For example, here is one pair of generated images in the oblique performance test for an affine transform $$A=T_{1.4} R_{45^\circ}$$. Lets see visually the results for RootSIFT (80 true / 82 false), AC-W (98 true / 46 false) and AC-Q (226 true / 37 false).
+<center>
+<img src="/img/imas/RootSIFT-true.jpg" alt="RootSIFT" width="90%">
+<img src="/img/imas/AC-W-true.jpg" alt="AC-W" width="90%">
+<img src="/img/imas/AC-Q-true.jpg" alt="AC-Q" width="90%">
+</center>
