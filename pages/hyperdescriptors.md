@@ -26,6 +26,75 @@ The above source code is a standalone C++ code for IMAS (as in IPOL) implementin
 
 *Remark: This source code comes with a doxygen documentation.*
 
+### Notredame
+
+The following is an example of matching two images with a significant change in point of view. In this case, Affine-RootSIFT was applied on the query (top) and target (bottom) images, and resulting matches were filtered with by ORSA Homography.
+
+<center>
+<div > <img src="/img/imas/notredame_matching.png" alt="notredame_matching" width="100%"> </div>
+</center>
+
+
+The following shows the program's output for this example.
+
+
+```
+--> Using 32 threads out of 32 for executing Optimal-Affine-RootSIFT <--
+
+Covering Info:
+Selecting optimal log1.7-covering for tilts up to 6  
+( t_1 phi_1 ... t_n phi_n ) = ( 2.6175699234 0.3980320096 5.1816802025 0.1983139962 )
+ Area ratio = 7.144  
+
+IMAS-Detector with RootSIFT...
+   4487 hyper-descriptors from 13180 SIIM descriptors have been found in 25 simulated versions of image 1
+      stats: group_min = 1 , group_mean = 2.937, group_max = 18
+   3655 hyper-descriptors from 10366 SIIM descriptors have been found in 25 simulated versions of image 2
+      stats: group_min = 1 , group_mean = 2.836, group_max = 28
+IMAS-Detector accomplished in 1.44 seconds.
+
+IMAS-Matcher...
+   387 possible matches have been found.
+IMAS-Matcher accomplished in 0.72 seconds.
+
+Filters...
+-> Applying ORSA filter (Homography)
+Imposed precision <= 24
+  nfa=10.3993 inliers=6 precision=12.2644 (iter=12)
+  nfa=4.75748 inliers=10 precision=9.41421 (iter=21)
+  nfa=2.16053 inliers=16 precision=18.7833 (iter=482)
+  nfa=-5.7019 inliers=23 precision=20.0082 (iter=643,sample=45,72,110,193)
+  nfa=-6.71704 inliers=26 precision=23.4279 (iter=667,sample=23,179,254,247)
+  nfa=-9.00678 inliers=28 precision=23.6846 (iter=758,sample=306,71,45,187)
+  nfa=-16.0474 inliers=33 precision=23.2265 (iter=785,sample=23,324,257,363)
+  nfa=-25.143 inliers=39 precision=22.776 (iter=837,sample=324,23,260,182)
+  nfa=-32.8 inliers=44 precision=22.7168 (iter=955,sample=324,182,276,111)
+  nfa=-48.9085 inliers=52 precision=20.936 (iter=962,sample=106,337,92,270)
+  nfa=-50.2798 inliers=56 precision=23.6407 (iter=992,sample=186,285,350,36)
+  nfa=-51.4467 inliers=50 precision=18.0402 (iter=1235,sample=363,199,270,13)
+  nfa=-51.9596 inliers=55 precision=21.9383 (iter=1304,sample=13,192,212,36)
+  nfa=-53.297 inliers=58 precision=23.7787 (iter=1635,sample=260,101,173,155)
+Before refinement: Average/max error: 11.1799/23.3425
+After  refinement: Average/max error: 9.9503/22.3047
+The two images match! 58 matchings are identified. log(nfa)=-53.30.
+*************** Homography ***************
+[ 0.0828366 0.23572 317.441;  -0.34383 0.752014 158.308;  -0.00081302 0.000503007 1 ]
+******************************************
+   Number of filtered matches =  58.
+Filters were applied in 0.15 seconds.
+
+   Final number of matches =  58.
+
+Done.
+```
+
+
+Let's now take a look at the panorama in order to visually measure how good was the estimated homography.
+
+<center>
+<div > <img src="/img/imas/notredame_panorama.png" alt="notredame_panorama" width="100%"> </div>
+</center>
+
 
 ### IMAS on MATLAB
 To have access to IMAS on MATLAB we propose to use the MEX compiler. The original code of both C++ implementations of IMAS (standalone or opencv) is handled through the MATLAB function **"perform_IMAS.m"** in the following repository: [imas_analytics](https://github.com/rdguez-mariano/imas_analytics).
