@@ -22,7 +22,7 @@ Main pages
 <p></p>
 - [Contact details](/contact).
 <p></p>
-- An image matching algorithm working on viewpoint changes is available [here](/hyperdescriptors).
+- An image matching algorithm working on viewpoint changes is available [here](/pages/hyperdescriptors).
 <p></p>
 - My Publications can be found <a href="{{ site.baseurl }}/publications">here</a>.
 

@@ -17,8 +17,8 @@ Fast Affine Invariant Image Matching
 *Abstract*:
 Methods performing  Image Matching by Affine Simulation (IMAS) attain affine invariance by applying a finite set of affine transforms to the images before comparing them with a   Scale Invariant Image Matching  (SIIM) method like SIFT or SURF. We describe here how  to optimize IMAS methods. First, we detail an algorithm computing a minimal discrete set of affine transforms to be applied to each image before comparison.  It yields a full practical affine invariance at the lowest computational cost.  The matching complexity of current IMAS algorithms is divided by about 4. Our approach also associates to each image an affine invariant set of descriptors, which is twice smaller than the set of descriptors usually used in IMAS methods, and only 6.4 times larger than the set of similarity invariant descriptors of SIIM methods. In order to reduce the number of false matches, which are inherently more frequent in IMAS approaches than in SIIM, we introduce the notion of hyper-descriptor, which groups descriptors whose keypoints are spatially close. Finally, we also propose a matching criterion allowing each keypoint of the query image to be matched with several keypoints of the target image, in order to deal with situations where an object is repeated several times in the target image.
 
-<center><a href="/pages/hyperdescriptors">See this article</a> <small>(on IPOL)</small></center>
-<center><a href="http://ipolcore.ipol.im/demo/clientApp/demo.html?id=77777000011">Test it online</a> <small>(on IPOL)</small></center>
+<center><a href="https://www.ipol.im/pub/art/2018/225/">See this article</a> <small>(on IPOL)</small></center>
+<center><a href="https://ipolcore.ipol.im/demo/clientApp/demo.html?id=225">Test it online</a> <small>(on IPOL)</small></center>
 <center><a href="https://github.com/rdguez-mariano/fast_imas_IPOL">Source code</a> <small>(on Github)</small></center>
 
 <p></p>
