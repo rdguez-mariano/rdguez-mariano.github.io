@@ -24,6 +24,7 @@ simulations. The proposed methods achieve state-of-the-art performances under
 repetitive structures.
 
 
+<center><a href="http://dev.ipol.im/~rdguez-mariano/fixed_files/ac_desc.pdf">Read / Download this article</a> </center>
 
 <center><a href="https://github.com/rdguez-mariano/fast_imas_IPOL"> Source code</a> <small>(on Github)</small></center>
 

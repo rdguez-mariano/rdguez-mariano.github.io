@@ -9,9 +9,9 @@ Full-Resumé
 -----------
 
 <center>
-<a href="/data/cv.pdf">English Version</a>
+<a href="http://dev.ipol.im/~rdguez-mariano/fixed_files/cv.pdf">English Version</a>
 <p></p>
-<a href="/data/cv_french.pdf">Version Française</a>
+<a href="http://dev.ipol.im/~rdguez-mariano/fixed_files/cv_french.pdf">Version Française</a>
 </center>
 
 Studies
