@@ -2710,11 +2710,11 @@ var bibtexify = (function($) {
             });
 
             var itemStr = '';
-            itemStr += ' (<a title="Download this article as BibTeX" href="data:application/octet-stream;charset=utf-8,'+encodeURIComponent(itemStr2)+'" class="biblink">' +
-                        'bib</a>)<div class="bibinfo hidden">';
-            itemStr += '<pre>';
-            itemStr += itemStr2;
-            itemStr += "}</pre></div>";
+            //itemStr += ' (<a title="Download this article as BibTeX" href="data:application/octet-stream;charset=utf-8,'+encodeURIComponent(itemStr2)+'" class="biblink"> bib</a>)' ;
+            itemStr +=' (<a href="#" title="Download this article as BibTeX" onclick="ShowBib(\''+ encodeURI(itemStr2) + '\')">bib</a>)';
+            //itemStr += '<div><pre style="word-wrap: break-word; white-space: pre-wrap;">';
+            //itemStr += itemStr2;
+            //itemStr += "}</pre></div>";
             return itemStr;
         },
         // generates the twitter link for the entry

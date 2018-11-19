@@ -12,6 +12,20 @@
       gtag('config', 'UA-113243110-1');
     </script>
 
+<!-- Mariano Rodríguez Showing BibTex Info -->    
+<script>
+function ShowBib(txt) {
+    txt = decodeURI(txt)
+    //alert(txt);
+    var w = window.open();
+    //w.document.write('<title>BibTeX</title> <p style="font-family:courier;color:green;">'+txt+' }</p>');
+    w.document.write('<title>BibTeX</title> <div><pre style="word-wrap: break-word; white-space: pre-wrap;">'+txt+' } </pre></div>');
+    w.document.close();
+    w.focus();
+    //w.print();
+}
+</script>
+
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
