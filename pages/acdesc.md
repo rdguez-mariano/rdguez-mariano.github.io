@@ -2,6 +2,7 @@
 layout: default2
 title: "Research Paper"
 header-img: "/img/paris.jpg"
+nextpage: "/pages/sift-aid"
 prevpage: "/pages/hyperdescriptors"
 ---
 
