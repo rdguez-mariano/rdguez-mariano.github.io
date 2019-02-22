@@ -25,7 +25,7 @@ The classic approach to image matching consists in the detection, description an
 
 ### News
 
-* **22/02/2019** - The matcher code (C++ code) has been optimized. Now, under the same hardware settings, we go from 4.4s to 0.77s for the case of the *coke* pair.
+* **22/02/2019** - The matcher code is now optimized and available in the github repository. For example, under the same hardware settings reported in the first version of the manuscript, we go from 4.4s to 0.77s for the *coke* pair. The level of performance is now similar to the OpenCV SIFT Matcher (0.5s).
 
 ### Highlights on Notredame
 

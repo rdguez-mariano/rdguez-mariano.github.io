@@ -4,13 +4,36 @@ title: "Welcome"
 header-img: "/img/paris.jpg"
 ---
 
-<div style="float:left; width:175px;height:180px" > <img src="/img/mariano.jpg" alt="Mariano Rodríguez" height="160px"></div>
 
-Hi ! I'm a PhD Student at the [ENS Paris-Saclay](http://www.ens-cachan.fr/) under the supervision of [Jean-Michel Morel](https://sites.google.com/site/jeanmichelmorelcmlaenscachan/) and [Julie Delon](https://delon.wp.imt.fr/). My academic background is based in Mathematics (undergraduate studies and Master 1) and Computer Science (College and Master 2). Nowadays my research focuses mainly on Computer Vision and Machine Learning.
+<center>
 
-Please, feel free to take a look around !
+<style>
+table, th, td {
+  border: 0px solid black;
+  border-collapse: collapse;
+  border-color:inherit;  
+}
+td.totop{vertical-align:top;text-align: justify;
+  text-justify: inter-word;}
+td.tocenter{vertical-align:middle;}
+</style>
 
-Mariano Rodríguez
+<table style="width:100%">
+  <tr>
+    <td class="tocenter" align="center">
+        <div style="align:center; width:175px" > <img src="/img/mariano.jpg" alt="Mariano Rodríguez" width="140px"></div>
+    </td>
+    <td class="totop" align="left">
+        Hi ! I'm a PhD Student at the <a href ="http://www.ens-cachan.fr/">ENS Paris-Saclay</a>  under the supervision of <a href="https://sites.google.com/site/jeanmichelmorelcmlaenscachan/">Jean-Michel Morel</a> and <a href="https://delon.wp.imt.fr/">Julie Delon</a>. My academic background is based in Mathematics (undergraduate studies and Master 1) and Computer Science (College and Master 2). Nowadays my research focuses mainly on Computer Vision and Machine Learning.
+        <p></p>
+        Please, feel free to take a look around !
+        <p></p>
+        Mariano Rodríguez
+    </td>
+  </tr>
+</table>
+
+</center>
 
 
 <!-- & highlights -->
