@@ -8,8 +8,11 @@ header-img: "/img/paris.jpg"
 
 ### Research pages
 - [Covering the Space of Tilts](/pages/imas)
+<p></p>
 - [Fast affine invariant image matching](/pages/hyperdescriptors)
+<p></p>
 - [Affine invariant image comparison under repetitive structures](/pages/acdesc)
+<p></p>
 - [SIFT-AID](/pages/sift-aid)
 
 ### Teaching assistant at the ENS Paris-Saclay

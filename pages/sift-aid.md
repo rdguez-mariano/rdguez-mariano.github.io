@@ -23,6 +23,10 @@ The classic approach to image matching consists in the detection, description an
 
 <center><a href="https://github.com/rdguez-mariano/sift-aid"> Source code</a> <small>(on Github)</small></center>
 
+### News
+
+* **22/02/2019** - The matcher code (C++ code) has been optimized. Now, under the same hardware settings, we go from 4.4s to 0.77s for the case of the *coke* pair.
+
 ### Highlights on Notredame
 
 <center>
@@ -66,7 +70,7 @@ table, th, td {
 
 #### Testing on true matches from Affine-RootSIFT
 
-Lets investigate if those matches seen by Affine-RootSIFT and not seen by SIFT-AID are really AID's fault. For that, the following test bypasses the first stages of SIFT and manually selects precise SIFT keypoints in gaussian pyramids from the query and target images. These precise keypoints are the best possible choices that could have been found by the first stages of SIFT.
+Lets investigate if those matches seen by Affine-RootSIFT and not seen by SIFT-AID are really AID's fault. For that, the following test bypasses the first stages of SIFT and manually selects precise SIFT keypoints in the respective Gaussian pyramids of the query and target images. These precise keypoints are the best possible choices that could have been found by the first stages of SIFT.
 
 Modify the following lines in *launch-ICIP19-test.py*
 
@@ -97,7 +101,7 @@ Overall AID score ( 98%): 1624 Matched, 34 Missed
 
 This  experiment  reveals that AID would have been sufficient to identify almost all Affine-RootSIFT matches, provided that proper keypoints had been correctly spotted by the first stages of SIFT.
 
-Let's now dig deeper on those missed matches. The following figure plots missed and retrieved matches with respect to zoom and viewpoint angle differences between patches. Those quantities were computed by the means of local affine approximations (First order Taylor development) of ground truth homographies.
+Let's now dig deeper on those missed matches. The following figure plots missed and retrieved matches with respect to zoom and viewpoint angle differences between patches. Those quantities were computed by the means of local affine approximations (first order Taylor development) of ground truth homographies.
 
 <center>
 <div > <img src="/img/sift-aid/SeenByAID.png" alt="SeenByAID" width="80%"></div>
@@ -107,9 +111,9 @@ Notice that most of the missing matches for  AID  descriptors  involve  viewpoin
 
 #### Testing on all keypoints from Affine-RootSIFT
 
-This test appears in our paper as Test II in Table 1. It can be obtained with a simple hack, simply modify csv files in *acc-tests* folder in the following way:
+This test appears in our paper as Test II in Table 1. It can be obtained with a simple hack, simply modify csv files in the *acc-tests* folder by:
 - Download and compile [Fast image matching by affine simulations](https://github.com/rdguez-mariano/fast_imas_IPOL).
-- Execute the command below and the output csv files should override csv files in the *acc-tests* folder.
+- Execute the command below and its output csv files should override csv files in the *acc-tests* folder.
 
 ```bash
 ./main -im1 img1.png -im2 img2.png -desc 11 -match_ratio 1 -applyfilter 0
@@ -134,7 +138,7 @@ and execute
 python py-tools/launch-ICIP19-test.py
 ```
 
-If you want to compare reconstruct results of Affine-RootSIFT download and compile [Fast image matching by affine simulations](https://github.com/rdguez-mariano/fast_imas_IPOL). Then move the `main` executable to `acc-test/z_main` and uncomment the following lines in *launch-ICIP19-test.py*.
+In order to reconstruct results for Affine-RootSIFT, please download and compile [Fast image matching by affine simulations](https://github.com/rdguez-mariano/fast_imas_IPOL). Then, copy the `main` executable to `acc-test/z_main` and uncomment the following lines in *launch-ICIP19-test.py*.
 
 ```python
 method = 'Optimal Affine-RootSIFT'
