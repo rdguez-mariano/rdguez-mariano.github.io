@@ -12,12 +12,12 @@ AID : an affine invariant descriptor for SIFT
 
 *Authors*: Mariano Rodríguez, Gabrielle Facciolo, Rafael Grompone von Gioi, Pablo Musé, Jean-Michel Morel and Julie Delon
 
-<!-- *Conference*: [ICIP 19](http://www.2019.ieeeicip.org/) -->
+*Conference*: [ICIP 19](http://www.2019.ieeeicip.org/)
 
 *Abstract*:
 The classic approach to image matching consists in the detection, description and matching of keypoints. The descriptor encodes the local information around the keypoint. An advantage of local approaches is that viewpoint deformations are well approximated by affine maps. This motivated the quest for affine invariant local descriptors. Despite numerous efforts, such descriptors remained elusive, ultimately resulting in the compromise of using viewpoint simulations to attain affine invariance. In this work we propose a CNN-based patch descriptor which captures affine invariance without the need for viewpoint simulations. This is achieved by training a neural network to associate similar vectorial representations to patches related by affine transformations. During matching, these vectors are compared very efficiently. The invariance to translation, rotation and scale is still obtained by the first stages of SIFT, which produce the keypoints. The proposed descriptor outperforms the state-of-the-art in retaining affine invariant properties.
 
-<center><a href="https://hal.archives-ouvertes.fr/hal-02016010v1">Read / Download this article</a> <small>(on HAL)</small></center>
+<center><a href="http://dev.ipol.im/~rdguez-mariano/fixed_files/siftaid_icip.pdf">Read / Download this article</a></center>
 
 <!-- <center><a href="http://dev.ipol.im/~rdguez-mariano/fixed_files/ac_desc.pdf">Read / Download this article</a> </center> -->
 
