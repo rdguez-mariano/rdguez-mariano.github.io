@@ -14,6 +14,8 @@ header-img: "/img/paris.jpg"
 - [Affine invariant image comparison under repetitive structures](/pages/acdesc)
 <p></p>
 - [SIFT-AID](/pages/sift-aid)
+<p></p>
+- [Robust estimation of local affine maps](/pages/affmaps)
 
 ### Teaching assistant at the ENS Paris-Saclay
 - **Analyse de Fourier et Hilbertienne** (Sep. 2018 - Jan. 2019). *Department of Mathematics, ENS Paris-Saclay.*
