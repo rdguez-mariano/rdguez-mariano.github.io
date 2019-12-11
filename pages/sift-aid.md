@@ -3,7 +3,7 @@ layout: default2
 title: "Research Paper"
 header-img: "/img/paris.jpg"
 prevpage: "/pages/acdesc"
-nextpage: "/pages/affmaps"
+nextpage: "/pages/locate"
 ---
 
 AID : an affine invariant descriptor for SIFT
