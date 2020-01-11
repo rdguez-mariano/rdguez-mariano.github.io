@@ -11,7 +11,7 @@ AID : an affine invariant descriptor for SIFT
 
 *Full Title*: "SIFT-AID: boosting SIFT with an affine invariant descriptor based on convolutional neural networks"
 
-*Authors*: Mariano Rodríguez, Gabrielle Facciolo, Rafael Grompone von Gioi, Pablo Musé, Jean-Michel Morel and Julie Delon
+*Authors*: Mariano Rodríguez, Gabriele Facciolo, Rafael Grompone von Gioi, Pablo Musé, Jean-Michel Morel and Julie Delon
 
 *Conference*: [ICIP 19](http://www.2019.ieeeicip.org/)
 

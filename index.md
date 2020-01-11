@@ -50,6 +50,8 @@ Main pages
 - [IMAS on IPOL](/pages/hyperdescriptors). Optimized Image Matching by Affine Simulations (IMAS) methods allowing to capture viewpoint changes between two images.
 <p></p>
 - [SIFT-AID](/pages/sift-aid). A fast affine invariant method based on convolutional neural networks.
+<p></p>
+- [LOCATE](/pages/locate). Robust estimation of local affine maps and its applications to image matching.
 
 
 

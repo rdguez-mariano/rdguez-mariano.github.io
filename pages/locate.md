@@ -10,7 +10,7 @@ Robust estimation of local affine maps
 
 *Full Title*: "Robust estimation of local affine maps and its applications to image matching"
 
-*Authors*: Mariano Rodríguez, Gabrielle Facciolo, Rafael Grompone von Gioi, Pablo Musé and Julie Delon
+*Authors*: Mariano Rodríguez, Gabriele Facciolo, Rafael Grompone von Gioi, Pablo Musé and Julie Delon
 
 *Conference*: [WACV 20](http://wacv20.wacv.net/)
 
