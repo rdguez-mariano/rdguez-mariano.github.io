@@ -16,6 +16,8 @@ header-img: "/img/paris.jpg"
 - [SIFT-AID](/pages/sift-aid)
 <p></p>
 - [Robust estimation of local affine maps](/pages/locate)
+<p></p>
+- [CNN-assisted coverings in the Space of Tilts](/pages/adimas)
 
 ### Teaching assistant at the ENS Paris-Saclay
 - **Calcul Différentiel** (Sep. 2016 - Jan. 2017). *Department of Mathematics, ENS Paris-Saclay.*

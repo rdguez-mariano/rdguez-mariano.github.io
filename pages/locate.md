@@ -2,6 +2,7 @@
 layout: default2
 title: "Research Paper"
 header-img: "/img/paris.jpg"
+nextpage: "/pages/adimas"
 prevpage: "/pages/sift-aid"
 ---
 
