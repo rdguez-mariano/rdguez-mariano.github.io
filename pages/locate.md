@@ -22,6 +22,11 @@ The classic approach to image matching consists in the detection, description an
 
 <center><a href="https://github.com/rdguez-mariano/locate"> Source code</a> <small>(on Github)</small></center>
 
+<p></p>
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fHN3bw_gXkA?&start=1645&end=1829" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
 
 
 ### Reconstruction from tangent planes
