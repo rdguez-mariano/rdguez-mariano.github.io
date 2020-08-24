@@ -16,7 +16,8 @@ Full-Resumé
 
 Studies
 --------------
-- **[Current Situation]** PhD studies at the ENS Paris-Saclay under the supervision of [Jean-Michel Morel](https://sites.google.com/site/jeanmichelmorelcmlaenscachan/) and [Julie Delon](https://delon.wp.imt.fr/).
+- **[Current Situation]** Postdoctoral researcher at the ENS Paris-Saclay.
+- PhD studies *(2016 - 2020)* at the ENS Paris-Saclay under the supervision of [Jean-Michel Morel](https://sites.google.com/site/jeanmichelmorelcmlaenscachan/) and [Julie Delon](https://delon.wp.imt.fr/).
 - [Master 2 "Mathématiques, Vision, Apprentissage"](http://math.ens-paris-saclay.fr/version-francaise/formations/master-mva/) *(2015 - 2016)* at the ENS Paris-Saclay.
 - [Master 1 "Mathématiques et Modélisation"](http://www.mi.parisdescartes.fr/~graff/TEST/WPM/formations/master-mathematiques-et-applications/) *(2014 - 2015)* at the University Paris Descartes.
 - Three years *(2011 - 2014)* as "Profesor Instructor" at the University of Havana.
@@ -61,4 +62,5 @@ Phone
 Email
 ---------------
 
-[mariano.rodriguez@cmla.ens-cachan.fr](mailto:mariano.rodriguez@cmla.ens-cachan.fr)
+<!-- [mariano.rodriguez@cmla.ens-cachan.fr](mailto:mariano.rodriguez@cmla.ens-cachan.fr) -->
+[mariano.rodriguez@ens-paris-saclay.fr](mailto:mariano.rodriguez@ens-paris-saclay.fr)
