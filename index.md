@@ -24,7 +24,7 @@ td.tocenter{vertical-align:middle;width: 30%;}
         <div style="align:center; width:100%" > <img src="/img/mariano.jpg" alt="Mariano Rodríguez" width="80%"></div>
     </td>
     <td class="totop" align="left">
-        Hi ! I'm a Postdoctoral researcher at the CMLA, <a href ="http://www.ens-cachan.fr/">ENS Paris-Saclay</a>. I was a PhD Student in applied mathematics from 2016-2020 under the supervision of <a href="https://sites.google.com/site/jeanmichelmorelcmlaenscachan/">Jean-Michel Morel</a> and <a href="https://delon.wp.imt.fr/">Julie Delon</a>. My academic background is based in Mathematics (undergraduate studies and Master 1) and Computer Science (College and Master 2). Nowadays my research focuses mainly on Computer Vision and Machine Learning.
+        Hi ! I'm a Postdoctoral researcher at the <a href ="https://centreborelli.cnrs.fr/">Centre Borelli</a>, <a href ="https://ens-paris-saclay.fr/">ENS Paris-Saclay</a>. I was a PhD Student in applied mathematics from 2016-2020 under the supervision of <a href="https://sites.google.com/site/jeanmichelmorelcmlaenscachan/">Jean-Michel Morel</a> and <a href="https://delon.wp.imt.fr/">Julie Delon</a>. My academic background is based in Mathematics (undergraduate studies and Master 1) and Computer Science (College and Master 2). Nowadays my research focuses mainly on Computer Vision and Machine Learning.
         <p></p>
         Please, feel free to take a look around!
         <p></p>

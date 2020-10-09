@@ -19,7 +19,7 @@ Studies
 - **[Current Situation]** Postdoctoral researcher at the ENS Paris-Saclay.
 - PhD studies *(2016 - 2020)* at the ENS Paris-Saclay under the supervision of [Jean-Michel Morel](https://sites.google.com/site/jeanmichelmorelcmlaenscachan/) and [Julie Delon](https://delon.wp.imt.fr/).
 - [Master 2 "Mathématiques, Vision, Apprentissage"](http://math.ens-paris-saclay.fr/version-francaise/formations/master-mva/) *(2015 - 2016)* at the ENS Paris-Saclay.
-- [Master 1 "Mathématiques et Modélisation"](http://www.mi.parisdescartes.fr/~graff/TEST/WPM/formations/master-mathematiques-et-applications/) *(2014 - 2015)* at the University Paris Descartes.
+- [Master 1 "Mathématiques et Modélisation"](https://map5.mi.parisdescartes.fr/presentation/enseignement/) *(2014 - 2015)* at the University Paris Descartes.
 - Three years *(2011 - 2014)* as "Profesor Instructor" at the University of Havana.
 - Four years *(2007 - 2011)* of undergraduate studies in Mathematics at the Faculty of Mathematics and Computer Science of the University of Havana.
 
@@ -43,9 +43,9 @@ Where to find me
     }
 </style>
 
-- [CMLA, ENS Paris-Saclay](http://cmla.ens-paris-saclay.fr/) - 61, avenue du Président Wilson, 94235 Cachan cédex
+- [Centre Borelli, ENS Paris-Saclay](https://centreborelli.cnrs.fr/) - 4 Avenue des Sciences, 91190 Gif-sur-Yvette
 <div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d59425.13630063927!2d2.3218033611921696!3d48.83446903157823!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9fa50097ff8f105a!2s%C3%89cole+Normale+Sup%C3%A9rieure+de+Cachan!5e0!3m2!1ses!2sfr!4v1467472198512" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.247102260287!2d2.1631531373673876!3d48.712038755355216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67124d0aa37cb%3A0x9fa50097ff8f105a!2s%C3%89cole%20normale%20sup%C3%A9rieure%20Paris-Saclay!5e0!3m2!1sen!2sfr!4v1602237807199!5m2!1sen!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </div>
 
 <p> </p>
