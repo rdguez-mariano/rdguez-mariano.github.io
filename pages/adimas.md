@@ -3,6 +3,7 @@ layout: default2
 title: "Research Paper"
 header-img: "/img/paris.jpg"
 prevpage: "/pages/locate"
+nextpage: "/pages/autosim"
 ---
 
 CNN-assisted coverings in the Space of Tilts
