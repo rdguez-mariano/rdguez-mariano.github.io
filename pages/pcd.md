@@ -12,6 +12,8 @@ A cloud detector for single-band satellite images
 
 *Authors*: Mariano Rodríguez, Carlo de Franchis,  Charles Hessel, Gabriele Facciolo, Rafael Grompone Von Gioi and Jean-Michel Morel
 
+*Conference*: [IGARSS 2021](https://igarss2021.com/)
+
 *Abstract*:
 Cloud detection is a crucial step for automatic satellite image analysis.  Some cloud detection methods exploit specially designed spectral bands, other base the detection on time series, or on the inter-band delay in push-broom satellites. Nevertheless many use cases occur where these methods do not apply.  This paper describes a convolutional neural network for cloud detection in panchromatic and single-frame images.  Only a per-image annotation is required, indicating which images contain clouds and which are cloud-free.  Our experiments show that, in spite of using less information, the proposed method produces competitive results.
 

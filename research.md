@@ -9,6 +9,8 @@ header-img: "/img/paris.jpg"
 <!-- <center>PhD Thesis -  <small><a href="http://dev.ipol.im/~rdguez-mariano/fixed_files/phd_thesis_lq.pdf">(Download Standard Quality)</a> <a href="http://dev.ipol.im/~rdguez-mariano/fixed_files/phd_thesis_lq.pdf">(Download Low Quality)</a> </small></center> -->
 
 ### Research pages
+- [A CNN cloud detector for panchromatic satellite images](/pages/pcd)
+<p></p>
 - [CNN-assisted coverings in the Space of Tilts](/pages/adimas)
 <p></p>
 - [Robust estimation of local affine maps](/pages/locate)
@@ -25,7 +27,7 @@ header-img: "/img/paris.jpg"
 
 ### PhD thesis
 I was a PhD Student at the <a href ="https://ens-paris-saclay.fr/">ENS Paris-Saclay</a>  under the supervision of <a href="https://sites.google.com/site/jeanmichelmorelcmlaenscachan/">Jean-Michel Morel</a> and <a href="https://delon.wp.imt.fr/">Julie Delon</a>. The manuscript is available at:
- <center> <small><a href="https://hal.archives-ouvertes.fr/tel-02954027v1">Mariano Rodríguez (2020) "Affine invariant image comparison"</a> </small>  </center>
+ <center> <small><a href="https://hal.archives-ouvertes.fr/tel-02954027">Mariano Rodríguez (2020) "Affine invariant image comparison"</a> </small>  </center>
 <p></p>
 
 
