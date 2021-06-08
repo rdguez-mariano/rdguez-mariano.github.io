@@ -13,6 +13,8 @@ Automatic detection of repeated objects
 
 *Authors*: Mariano Rodríguez, Jean-Michel Morel and Julie Delon
 
+*Conference*: [ICIP 21](https://2021.ieeeicip.org/)
+
 *Abstract*:
 The definition of an "object" through the presentation of several of its instances is certainly one of the most efficient ways for humans and machines to learn. 
 An object can be "learned" from a single image,  just because it is repeating. In this paper, we explore a three step algorithm to detect repeated objects in images. Starting from a graph of auto-correspondences inside an image, we first extract  sub-graphs composed of repetitions of unbreakable pieces of objects, that we call atoms. Then, these graphs of atoms are grouped into initial propositions of object instances. Finally, geometry inconsistencies are filtered out to end up with the final repeated object. The meaningfulness  of object repetitions is measured by their Number of False Alarms (NFA), which provides a natural order among repeated objects in images; a very low  NFA being a strong  proof of existence of the discovered object.

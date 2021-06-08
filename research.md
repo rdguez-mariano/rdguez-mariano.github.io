@@ -11,6 +11,8 @@ header-img: "/img/paris.jpg"
 ### Research pages
 - [A CNN cloud detector for panchromatic satellite images](/pages/pcd)
 <p></p>
+- [Automatic detection of repeated objects](/pages/autosim)
+<p></p>
 - [CNN-assisted coverings in the Space of Tilts](/pages/adimas)
 <p></p>
 - [Robust estimation of local affine maps](/pages/locate)
