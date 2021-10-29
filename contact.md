@@ -60,4 +60,4 @@ Email
 ---------------
 
 <!-- [mariano.rodriguez@cmla.ens-cachan.fr](mailto:mariano.rodriguez@cmla.ens-cachan.fr) -->
-[mariano.rodriguez@ens-paris-saclay.fr](mailto:mariano.rodriguez@ens-paris-saclay.fr)
+[mariano@powder.gg](mailto:mariano@powder.gg)
