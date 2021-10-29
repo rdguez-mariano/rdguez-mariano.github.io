@@ -5,18 +5,19 @@ header-img: "img/paris.jpg"
 ---
 <!-- <center><a href="cv.pdf">Full Resumé / CV </a> </center>-->
 
-Full-Resumé
+Curriculum vitae
 -----------
 
 <center>
 <a href="http://dev.ipol.im/~rdguez-mariano/fixed_files/cv.pdf">English Version</a>
 <p></p>
-<a href="http://dev.ipol.im/~rdguez-mariano/fixed_files/cv_french.pdf">Version Française</a>
+<a href="http://dev.ipol.im/~rdguez-mariano/fixed_files/full_cv.pdf">Full English Version</a>
 </center>
 
 Studies
 --------------
-- **[Current Situation]** Postdoctoral researcher at the ENS Paris-Saclay.
+- **[Current Situation]** Machine Learning Engineer at Powder. 
+- Postdoctoral researcher at the ENS Paris-Saclay.
 - PhD studies *(2016 - 2020)* at the ENS Paris-Saclay under the supervision of [Jean-Michel Morel](https://sites.google.com/site/jeanmichelmorelcmlaenscachan/) and [Julie Delon](https://delon.wp.imt.fr/).
 - [Master 2 "Mathématiques, Vision, Apprentissage"](http://math.ens-paris-saclay.fr/version-francaise/formations/master-mva/) *(2015 - 2016)* at the ENS Paris-Saclay.
 - [Master 1 "Mathématiques et Modélisation"](https://map5.mi.parisdescartes.fr/presentation/enseignement/) *(2014 - 2015)* at the University Paris Descartes.
@@ -43,15 +44,11 @@ Where to find me
     }
 </style>
 
-- [Centre Borelli, ENS Paris-Saclay](https://centreborelli.cnrs.fr/) - 4 Avenue des Sciences, 91190 Gif-sur-Yvette
+[Powder](https://www.linkedin.com/company/gustshow) - 89 Rue du Faubourg Saint-Denis, 75010 Paris
 <div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.247102260287!2d2.1631531373673876!3d48.712038755355216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67124d0aa37cb%3A0x9fa50097ff8f105a!2s%C3%89cole%20normale%20sup%C3%A9rieure%20Paris-Saclay!5e0!3m2!1sen!2sfr!4v1602237807199!5m2!1sen!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10498.355213523138!2d2.35652175!3d48.866051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e12fa329379%3A0x24db16955361c811!2s89%20Rue%20du%20Faubourg%20Saint-Denis%2C%2075010%20Paris!5e0!3m2!1sen!2sfr!4v1635512916016!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </div>
 
-<p> </p>
-- [MAP5, Université Paris Descartes](http://map5.mi.parisdescartes.fr/) - 45, rue des Saints Pères, 75270 Paris Cedex 06
-<div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48526.482485272456!2d2.3124297505927816!3d48.85648882656041!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2ec1dac30399f945!2sUniversit%C3%A9+Paris+DESCARTES+-+U.F.R.+Math%C3%A9matiques+et+Informatique!5e0!3m2!1ses!2sfr!4v1467472086227" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>			      			  		</div>   	
 
 
 Phone
