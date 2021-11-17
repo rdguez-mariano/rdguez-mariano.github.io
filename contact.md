@@ -3,30 +3,7 @@ layout: default2
 title: "Contact"
 header-img: "img/paris.jpg"
 ---
-<!-- <center><a href="cv.pdf">Full Resumé / CV </a> </center>-->
 
-Curriculum vitae
------------
-
-<center>
-<a href="http://dev.ipol.im/~rdguez-mariano/fixed_files/cv.pdf">English Version</a>
-<p></p>
-<a href="http://dev.ipol.im/~rdguez-mariano/fixed_files/full_cv.pdf">Full English Version</a>
-</center>
-
-Studies
---------------
-- **[Current Situation]** Machine Learning Engineer at Powder. 
-- Postdoctoral researcher at the ENS Paris-Saclay.
-- PhD studies *(2016 - 2020)* at the ENS Paris-Saclay under the supervision of [Jean-Michel Morel](https://sites.google.com/site/jeanmichelmorelcmlaenscachan/) and [Julie Delon](https://delon.wp.imt.fr/).
-- [Master 2 "Mathématiques, Vision, Apprentissage"](http://math.ens-paris-saclay.fr/version-francaise/formations/master-mva/) *(2015 - 2016)* at the ENS Paris-Saclay.
-- [Master 1 "Mathématiques et Modélisation"](https://map5.mi.parisdescartes.fr/presentation/enseignement/) *(2014 - 2015)* at the University Paris Descartes.
-- Three years *(2011 - 2014)* as "Profesor Instructor" at the University of Havana.
-- Four years *(2007 - 2011)* of undergraduate studies in Mathematics at the Faculty of Mathematics and Computer Science of the University of Havana.
-
-
-Where to find me
---------------
 
 <style>
     .google-maps {
@@ -42,7 +19,61 @@ Where to find me
         width: 100% !important;
         height: 100% !important;
     }
+    .linkedin-class {
+        position: relative;
+        padding-bottom: 100%; // This is the aspect ratio
+/*         height: 100%; */
+        overflow: hidden;
+    }
+    .linkedin-class iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
 </style>
+
+
+<center> <h3>Mariano Rodriguez</h3> </center>
+
+In the following you will find a brief description about me!
+
+<!-- <center><a href="cv.pdf">Full Resumé / CV </a> </center>-->
+
+
+Curriculum vitae
+-----------
+
+<center>
+<a href="http://dev.ipol.im/~rdguez-mariano/fixed_files/cv.pdf">English Version</a>
+<p></p>
+<a href="http://dev.ipol.im/~rdguez-mariano/fixed_files/full_cv.pdf">Full English Version</a>
+</center>
+
+
+Studies
+--------------
+
+- **[Current Situation]** Machine Learning Engineer at Powder. 
+- Postdoctoral researcher at the ENS Paris-Saclay.
+- PhD studies *(2016 - 2020)* at the ENS Paris-Saclay under the supervision of [Jean-Michel Morel](https://sites.google.com/site/jeanmichelmorelcmlaenscachan/) and [Julie Delon](https://delon.wp.imt.fr/).
+- [Master 2 "Mathématiques, Vision, Apprentissage"](http://math.ens-paris-saclay.fr/version-francaise/formations/master-mva/) *(2015 - 2016)* at the ENS Paris-Saclay.
+- [Master 1 "Mathématiques et Modélisation"](https://map5.mi.parisdescartes.fr/presentation/enseignement/) *(2014 - 2015)* at the University Paris Descartes.
+- Three years *(2011 - 2014)* as "Profesor Instructor" at the University of Havana.
+- Four years *(2007 - 2011)* of undergraduate studies in Mathematics at the Faculty of Mathematics and Computer Science of the University of Havana.
+
+
+A linkedin post from [Powder](https://www.linkedin.com/company/gustshow)
+---------------
+
+<div class="linkedin-class">
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6859108743213400065" height="1130" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+</div>
+
+
+Where to find me
+--------------
 
 [Powder](https://www.linkedin.com/company/gustshow) - 89 Rue du Faubourg Saint-Denis, 75010 Paris
 <div class="google-maps">
@@ -50,11 +81,10 @@ Where to find me
 </div>
 
 
-
-Phone
+<!--Phone
 ---------------
 
-(+33) 7 82 58 82 37
+(+33) 7 82 58 82 37-->
 
 Email
 ---------------
