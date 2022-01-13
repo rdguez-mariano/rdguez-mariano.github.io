@@ -1,6 +1,6 @@
 ---
-layout: default2
-title: "Contact"
+layout: default
+title: "rdguez-mariano"
 header-img: "img/paris.jpg"
 ---
 
@@ -8,7 +8,7 @@ header-img: "img/paris.jpg"
 <style>
     .google-maps {
         position: relative;
-        padding-bottom: 75%; // This is the aspect ratio
+        padding-bottom: 50%; // This is the aspect ratio
         height: 0;
         overflow: hidden;
     }
@@ -21,8 +21,8 @@ header-img: "img/paris.jpg"
     }
     .linkedin-class {
         position: relative;
-        padding-bottom: 100%; // This is the aspect ratio
-/*         height: 100%; */
+        padding-bottom: 50%; // This is the aspect ratio
+/*         height: 90%; */
         overflow: hidden;
     }
     .linkedin-class iframe {
@@ -35,12 +35,13 @@ header-img: "img/paris.jpg"
 </style>
 
 
-<center> <h3>Mariano Rodriguez</h3> </center>
+<!-- <center> <h3>Mariano Rodriguez</h3> </center> -->
 
 In the following you will find a brief description about me!
 
 <!-- <center><a href="cv.pdf">Full Resumé / CV </a> </center>-->
 
+<br />
 
 Curriculum vitae
 -----------
@@ -50,7 +51,7 @@ Curriculum vitae
 <p></p>
 <a href="http://dev.ipol.im/~rdguez-mariano/fixed_files/full_cv.pdf">Full English Version</a>
 </center>
-
+<br />
 
 Studies
 --------------
@@ -63,23 +64,24 @@ Studies
 - Three years *(2011 - 2014)* as "Profesor Instructor" at the University of Havana.
 - Four years *(2007 - 2011)* of undergraduate studies in Mathematics at the Faculty of Mathematics and Computer Science of the University of Havana.
 
+<br />
 
 A linkedin post from [Powder](https://www.linkedin.com/company/gustshow)
 ---------------
 
 <div class="linkedin-class">
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6859108743213400065" height="1130" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6859108743213400065" frameborder="0"></iframe>
 </div>
-
+<br />
 
 Where to find me
 --------------
 
 [Powder](https://www.linkedin.com/company/gustshow) - 89 Rue du Faubourg Saint-Denis, 75010 Paris
 <div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10498.355213523138!2d2.35652175!3d48.866051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e12fa329379%3A0x24db16955361c811!2s89%20Rue%20du%20Faubourg%20Saint-Denis%2C%2075010%20Paris!5e0!3m2!1sen!2sfr!4v1635512916016!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10498.355213523138!2d2.35652175!3d48.866051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e12fa329379%3A0x24db16955361c811!2s89%20Rue%20du%20Faubourg%20Saint-Denis%2C%2075010%20Paris!5e0!3m2!1sen!2sfr!4v1635512916016!5m2!1sen!2sfr" style="border:0;" loading="lazy"></iframe>
 </div>
-
+<br />
 
 <!--Phone
 ---------------

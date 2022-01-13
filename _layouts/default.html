@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    
+<!--  For social media icons    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    {% include head-custom.html %}
+
+{% seo %}
+  </head>
+
+  <body>
+<!-- header -->
+    <header class="intro-header" style="background-image: url('{{ page.header-img }}'); height:200px">
+<!--     <header class="intro-header" style="background-image: url('{{ page.header-img }}')"> -->
+        <div style="float:left;" ><a  class="btn" href="{{ site.baseurl }}/">main</a></div>
+        <div style="float:right;" ><a href="{{ site.baseurl }}/contact" class="btn">about</a></div>
+        <div style="float:right;" ><a href="{{ site.baseurl }}/publications" class="btn">bib</a></div>
+        <div style="float:right;" ><a href="{{ site.baseurl }}/research" class="btn">academy</a></div>
+        <div class="container">
+                    <br />
+                    <br />
+                    <br />
+
+                    <center> <h1 id="project_title">{% if page.title %}{{ page.title }} {% else %}{{ site.title }}{% endif %}</h1> </center>
+                    {% if page.pathdownload %}
+                                <section id="downloads">
+                                <a href="{{ page.pathdownload }}">{{ page.textdownload }}</a>
+                                </section>
+                    {% endif %}
+
+                    </div>
+    </header>
+
+    
+    <div class="container">
+        {% if page.prevpage %}
+        <div style="float:left;" > <a href="{{ page.prevpage }}"><img border="0" alt="left" src="/img/publis/back_enabled.jpg"></a></div>
+        {% endif %}
+
+        {% if page.nextpage %}
+        <div style="float:right;" > <a href="{{ page.nextpage }}"><img border="0" alt="left" src="/img/publis/forward_enabled.jpg"></a></div>
+        {% endif %}
+
+        </br>
+        </br>
+    </div>
+    
+    <div class="container">
+      <section id="main_content">
+        {{ content }}
+      </section>
+    </div>
+    
+<!-- footer -->
+<style>
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+</style>
+    <section id="main_content" class="inner">
+    </br>
+    </br>
+    <hr width="50%">
+    </br>
+    <center>
+    {% if site.linkedin_username %}
+    <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" class="btn fa fa-linkedin"></a>
+    {% endif %}
+    &nbsp &nbsp &nbsp
+    {% if site.github_username %}
+    <a href="https://github.com/{{ site.github_username }}" class="btn fa fa-github"></a>
+    {% endif %}
+    </center>
+
+    <center>
+    <p class="copyright text-muted">&copy; {{ site.title }} {{ site.time | date: '%Y' }}</p>
+    </center>
+    
+  </body>
+</html>
