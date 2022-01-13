@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "rdguez-mariano"
+title: "about"
 header-img: "img/paris.jpg"
 ---
 
@@ -39,19 +39,48 @@ header-img: "img/paris.jpg"
 
 <!-- <div> <img style="float:right;" src="/img/mariano2.jpg" alt="Mariano Rodríguez" width="15%"></div> -->
 
-In the following you will find a brief description about me!
+<center>
+<style>
+table, th, td {
+  border: 0px solid black;
+  border-collapse: collapse;
+  border-color:inherit;  
+}
+td.torightcolumn{vertical-align:middle;text-align: justify;
+  text-justify: inter-word;}
+td.toleftcolumn{vertical-align:middle;width: 25%;}
+</style>
+<br />
+
+<table style="width:350px">
+  <tr>
+    <td class="toleftcolumn" align="right" style="width:150px" >
+        <div style="align:center;" > <img src="/img/mariano2.jpg" alt="Mariano Rodríguez" height="150px" ></div>
+    </td>
+    <td class="torightcolumn" align="left">
+<!--         In the following you will find a brief description about me! -->
+Mariano
+<br />
+Rodríguez Guerra
+<br />
+<!-- Cuban, French -->
+<br />
+<a href="mailto:mariano@powder.gg">mariano@powder.gg</a>
+    </td>
+  </tr>
+</table>
+
+</center>
+
 
 
 <br />
 
 Curriculum vitae
 -----------
+- [English Version]("http://dev.ipol.im/~rdguez-mariano/fixed_files/cv.pdf")
+- [Full English Version]("http://dev.ipol.im/~rdguez-mariano/fixed_files/full_cv.pdf")
 
-<center>
-<a href="http://dev.ipol.im/~rdguez-mariano/fixed_files/cv.pdf">English Version</a>
-<p></p>
-<a href="http://dev.ipol.im/~rdguez-mariano/fixed_files/full_cv.pdf">Full English Version</a>
-</center>
 <br />
 
 Studies
@@ -84,12 +113,3 @@ Where to find me
 </div>
 <br />
 
-<!--Phone
----------------
-
-(+33) 7 82 58 82 37-->
-
-Email
----------------
-
-[mariano@powder.gg](mailto:mariano@powder.gg)

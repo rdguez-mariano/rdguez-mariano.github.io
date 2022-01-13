@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "academic-activities"
+title: "academy"
 header-img: "/img/paris.jpg"
 ---
 

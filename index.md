@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "welcome"
+title: "main"
 header-img: "/img/paris.jpg"
 ---
 
