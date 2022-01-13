@@ -37,9 +37,10 @@ header-img: "img/paris.jpg"
 
 <!-- <center> <h3>Mariano Rodriguez</h3> </center> -->
 
+<!-- <div> <img style="float:right;" src="/img/mariano2.jpg" alt="Mariano Rodríguez" width="15%"></div> -->
+
 In the following you will find a brief description about me!
 
-<!-- <center><a href="cv.pdf">Full Resumé / CV </a> </center>-->
 
 <br />
 
@@ -91,5 +92,4 @@ Where to find me
 Email
 ---------------
 
-<!-- [mariano.rodriguez@cmla.ens-cachan.fr](mailto:mariano.rodriguez@cmla.ens-cachan.fr) -->
 [mariano@powder.gg](mailto:mariano@powder.gg)
