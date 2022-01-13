@@ -1,41 +1,46 @@
 ---
-layout: default2
-title: "Publications"
-description: "of Mariano Rodríguez Guerra"
+layout: default
+title: "publications"
 header-img: "/img/paris.jpg"
 ---
 
 
-
-<!--  <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-  <script type="text/javascript" src="http://demo.villekaravirta.com/biblist/bib-list.js"></script>
-<link rel="stylesheet" href="http://demo.villekaravirta.com/biblist/bib-publication-list.css">
--->
-
-	<script src="{{ "/js/jquery.js " | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/bib-list.js " | prepend: site.baseurl }}"></script>
-    <link rel="stylesheet"  href="{{ "/css/bib-publication-list.css " | prepend: site.baseurl }}">
-
-  <pre id="bibtex" style="display:none;">
-      {% include_relative _bibtex/rdguez-mariano.bib %}
-
-  </pre>
-
+<!-- showing BibTex info in newtab -->    
+<script>
+function ShowBib(txt) {
+    txt = decodeURI(txt)
+    //alert(txt);
+    var w = window.open();
+    //w.document.write('<title>BibTeX</title> <p style="font-family:courier;color:green;">'+txt+' }</p>');
+    w.document.write('<title>BibTeX</title> <div><pre style="word-wrap: break-word; white-space: pre-wrap;">'+txt+' } </pre></div>');
+    w.document.close();
+    w.focus();
+    //w.print();
+}
+</script>
 
 
+<!-- querying BibTex file -->
+<script src="{{ "/js/jquery.js " | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/bib-list.js " | prepend: site.baseurl }}"></script>
 
 
-    <noscript>
-      <!-- bibtex source hidden by default, show it if JS disabled -->
-      <style>
-      #bibtex { display: block;}
-      </style>
-    </noscript>
+<pre id="bibtex" style="display:none;">
+    {% include_relative _bibtex/rdguez-mariano.bib %}
+</pre>
 
-    <table id="pubTable" class="display"></table>
 
-      <script type="text/javascript">
-      		    $(document).ready(function() {
-              	bibtexify("#bibtex", "pubTable", {'visualization': 0});
-          		});
-      </script>
+<noscript>
+<!-- bibtex source hidden by default, show it if JS disabled -->
+<style>
+#bibtex { display: block;}
+</style>
+</noscript>
+
+<table id="pubTable" class="display"></table>
+
+<script type="text/javascript">
+        $(document).ready(function() {
+        bibtexify("#bibtex", "pubTable", {'visualization': 0});
+        });
+</script>

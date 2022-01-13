@@ -1,12 +1,13 @@
 ---
-layout: default2
-title: "Research & Teaching Activities"
+layout: default
+title: "academic-activities"
 header-img: "/img/paris.jpg"
 ---
 
-<center><a href="{{ site.baseurl }}/publications">List of Publications</a></center>
+<center><a class="btn" style="float:center;" href="{{ site.baseurl }}/publications">List of Publications</a></center>
 
-<!-- <center>PhD Thesis -  <small><a href="http://dev.ipol.im/~rdguez-mariano/fixed_files/phd_thesis_lq.pdf">(Download Standard Quality)</a> <a href="http://dev.ipol.im/~rdguez-mariano/fixed_files/phd_thesis_lq.pdf">(Download Low Quality)</a> </small></center> -->
+<br />
+
 
 ### Research pages
 - [A CNN cloud detector for panchromatic satellite images](/pages/pcd)

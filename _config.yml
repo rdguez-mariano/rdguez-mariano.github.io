@@ -1,9 +1,13 @@
-theme: jekyll-theme-slate
+theme: jekyll-theme-hacker
 
 title: Mariano Rodríguez
 author: Mariano Rodríguez
 email: rdguez.mariano@gmail.com
 description: Professional website of Mariano Rodríguez Guerra / Mathematician and Computer Scientist / ENS Paris-Saclay
 baseurl: ""
-github_username:  rdguez-mariano
-linkedin_username:  rdguez-mariano
+github_username: rdguez-mariano
+linkedin_username: rdguez-mariano
+
+show_downloads: true
+google_analytics: UA-113243110-1
+theme: jekyll-theme-hacker

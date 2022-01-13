@@ -1,6 +1,6 @@
 ---
-layout: default2
-title: "Research Paper"
+layout: default
+title: "research-papers"
 header-img: "/img/paris.jpg"
 prevpage: "/pages/adimas"
 nextpage: "/pages/pcd"
