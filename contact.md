@@ -78,8 +78,8 @@ Rodríguez Guerra
 
 Curriculum vitae
 -----------
-- [English Version]("http://dev.ipol.im/~rdguez-mariano/fixed_files/cv.pdf")
-- [Full English Version]("http://dev.ipol.im/~rdguez-mariano/fixed_files/full_cv.pdf")
+- [English Version](http://dev.ipol.im/~rdguez-mariano/fixed_files/cv.pdf)
+- [Full English Version](http://dev.ipol.im/~rdguez-mariano/fixed_files/full_cv.pdf)
 
 <br />
 
