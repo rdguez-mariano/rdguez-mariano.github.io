@@ -26,6 +26,6 @@ The classic approach to image matching consists in the detection, description an
 <center><a href="https://github.com/rdguez-mariano/fast_imas_IPOL/tree/master/adaptiveIMAS"> Source code</a> <small>(on Github)</small></center>
 
 
----
+<!-----
 
-<center>More coming soon!!!</center>
+<center>More coming soon!!!</center> -->

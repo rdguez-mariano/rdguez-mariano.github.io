@@ -14,7 +14,7 @@ header-img: "/img/paris.jpg"
 <br />
 
 
-Main pages
+<!--Main pages
 ---
 
 - [Research & Teaching Activities](/research).
@@ -28,3 +28,4 @@ Main pages
 - [SIFT-AID](/pages/sift-aid). A fast affine invariant method based on convolutional neural networks.
 <p></p>
 - [LOCATE](/pages/locate). Robust estimation of local affine maps and its applications to image matching.
+ -->

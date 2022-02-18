@@ -86,8 +86,8 @@ Curriculum vitae
 Studies
 --------------
 
-- **[Current Situation]** Machine Learning Engineer at Powder. 
-- Postdoctoral researcher at the ENS Paris-Saclay.
+- **[Current Situation]** *(2021 - {{ site.time | date: '%Y' }})* Machine Learning Engineer at Powder. 
+- Postdoctoral researcher *(2020 - 2021)* at the ENS Paris-Saclay.
 - PhD studies *(2016 - 2020)* at the ENS Paris-Saclay under the supervision of [Jean-Michel Morel](https://sites.google.com/site/jeanmichelmorelcmlaenscachan/) and [Julie Delon](https://delon.wp.imt.fr/).
 - [Master 2 "Mathématiques, Vision, Apprentissage"](http://math.ens-paris-saclay.fr/version-francaise/formations/master-mva/) *(2015 - 2016)* at the ENS Paris-Saclay.
 - [Master 1 "Mathématiques et Modélisation"](https://map5.mi.parisdescartes.fr/presentation/enseignement/) *(2014 - 2015)* at the University Paris Descartes.

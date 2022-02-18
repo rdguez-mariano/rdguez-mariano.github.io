@@ -28,6 +28,6 @@ An object can be "learned" from a single image,  just because it is repeating. I
 
 <center><a href="http://ipolcore.ipol.im/demo/clientApp/demo.html?id=555555001111">Test it online</a> <small>(on IPOL)</small></center>
 
----
+<!-----
 
-<center>More coming soon!!!</center>
+<center>More coming soon!!!</center> -->

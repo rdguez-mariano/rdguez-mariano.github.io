@@ -2,6 +2,7 @@
 layout: default
 title: "research-papers"
 header-img: "/img/paris.jpg"
+nextpage: "/pages/valsteps"
 prevpage: "/pages/autosim"
 ---
 
@@ -27,6 +28,6 @@ Cloud detection is a crucial step for automatic satellite image analysis.  Some 
 <center><a href="http://ipolcore.ipol.im/demo/clientApp/demo.html?id=555555001111">Test it online</a> <small>(on IPOL)</small></center>
  -->
  
----
+<!-----
 
-<center>More coming soon!!!</center>
+<center>More coming soon!!!</center> -->

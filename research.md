@@ -10,6 +10,8 @@ header-img: "/img/paris.jpg"
 
 
 ### Research pages
+- [Robust validation steps for clip classification](/pages/valsteps)
+<p></p>
 - [A CNN cloud detector for panchromatic satellite images](/pages/pcd)
 <p></p>
 - [Automatic detection of repeated objects](/pages/autosim)
