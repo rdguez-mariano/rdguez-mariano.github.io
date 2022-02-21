@@ -2751,6 +2751,14 @@ var bibtexify = (function($) {
                 ", " + entryData.year  +
                 ".";
         },
+        unpublished: function(entryData) {
+            return this.authors2html(entryData.author) +
+                ". " +
+                "<em><a href=\"" + ((entryData.url)?entryData.url:"") + "\">" + entryData.title + "</a><\/em>" +
+                ". Unpublished" +
+                ", " + entryData.year  +
+                ".";
+        },
         article: function(entryData) {
             return this.authors2html(entryData.author) +
                 ". " +
@@ -2779,9 +2787,10 @@ var bibtexify = (function($) {
             return this.authors2html(entryData.author) +
                 ". " +
                 "<em><a href=\"" + entryData.url + "\">" + entryData.title + "</a><\/em>. " +
-                entryData.type + " " +
-                entryData.institution + ":" +
-                entryData.number +
+                entryData.type + ", " +
+                entryData.institution + 
+//                 ":" +
+//                 entryData.number +
                 ", " + entryData.year +
                 ". ";
         },
