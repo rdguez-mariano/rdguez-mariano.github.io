@@ -100,13 +100,25 @@ Studies
 Linkedin posts from [Powder](https://www.linkedin.com/company/gustshow)
 ---------------
 
+<!--
 <div class="linkedin-class">
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6859108743213400065" frameborder="0"></iframe>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:6980935645632286720/" frameborder="0"></iframe>
 </div>
 <br />
 
 <div class="linkedin-class">
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:6980923441826643968/" frameborder="0"></iframe>
+</div>
+<br />
+-->
+
+<div class="linkedin-class">
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:6975078188875931648/" frameborder="0"></iframe>
+</div>
+<br />
+
+<div class="linkedin-class">
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6859108743213400065" frameborder="0"></iframe>
 </div>
 <br />
 
