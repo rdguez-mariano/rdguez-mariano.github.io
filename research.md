@@ -9,7 +9,7 @@ header-img: "/img/paris.jpg"
 <br />
 
 
-### Research pages
+<!-- ### Research pages
 - [Robust validation steps for clip classification](/pages/valsteps)
 <p></p>
 - [A CNN cloud detector for panchromatic satellite images](/pages/pcd)
@@ -27,7 +27,7 @@ header-img: "/img/paris.jpg"
 - [Fast affine invariant image matching](/pages/hyperdescriptors)
 <p></p>
 - [Covering the Space of Tilts](/pages/imas)
-<p></p>
+<p></p> -->
 
 
 ### PhD thesis
