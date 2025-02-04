@@ -6,9 +6,9 @@ header-img: "img/paris.jpg"
 
 
 <!-- Calendly badge widget begin -->
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<!-- <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/rdguez-mariano/30min', text: 'Schedule time with me', color: '#0069ff', textColor: '#ffffff', branding: true }); }</script>
+<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/rdguez-mariano/30min', text: 'Schedule time with me', color: '#0069ff', textColor: '#ffffff', branding: true }); }</script> -->
 <!-- Calendly badge widget end -->
 
 
@@ -72,7 +72,7 @@ Rodríguez Guerra
 <br />
 <!-- Cuban, French -->
 <br />
-<a href="mailto:mrodriguez@gladia.io">mrodriguez@gladia.io</a>
+<a href="mailto:mariano@freeda.so">mariano@freeda.so</a>
 <br />
 <br />
 <a href="http://dev.ipol.im/~rdguez-mariano/fixed_files/short_cv.pdf"> Short CV</a>
@@ -95,8 +95,9 @@ Rodríguez Guerra
 
 Timeline
 --------------
-
-- **[Current Situation]** Machine Learning Engineer *(2023 - {{ site.time | date: '%Y' }})* at Gladia. 
+- **[Current Situation]** Cofounder and Chief Scientific Officer *(2024 - {{ site.time | date: '%Y' }})* at Freeda.
+- Founder and CTO *(2024 - 2024)* at Nano Quant Services.
+- Machine Learning Engineer *(2023 - 2024)* at Gladia. 
 - Machine Learning Engineer *(2021 - 2023)* at Powder. 
 - Postdoctoral researcher *(2020 - 2021)* at the ENS Paris-Saclay.
 - PhD studies *(2016 - 2020)* at the ENS Paris-Saclay under the supervision of [Jean-Michel Morel](https://sites.google.com/site/jeanmichelmorelcmlaenscachan/) and [Julie Delon](https://delon.wp.imt.fr/).
@@ -135,9 +136,10 @@ Linkedin posts from [Powder](https://www.linkedin.com/company/gustshow)
 Where to find me
 --------------
 
-[Gladia](https://www.linkedin.com/company/gladia-io/mycompany/) - 38 Rue de Ponthieu, 75008 Paris
+<!-- [Freeda](https://www.linkedin.com/company/gladia-io/mycompany/) - 5 Parv. Alan Turing, 75013 Paris -->
+Freeda - 5 Parv. Alan Turing, 75013 Paris
 <div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.310999690262!2d2.305430312201419!3d48.87134757121443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fc43cea2d83%3A0x1012da7caa571aff!2sStartWay%20Paris%208%20Ponthieu%20Bureaux%20et%20Coworking!5e0!3m2!1sen!2sfr!4v1686000062573!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5252.605706256659!2d2.369203676971786!3d48.8333616713287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67222208823cf%3A0x541ecb63365de48!2sSTATION%20F!5e0!3m2!1sfr!2sfr!4v1738682425844!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 <br />
 
