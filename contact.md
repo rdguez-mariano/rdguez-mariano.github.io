@@ -5,12 +5,6 @@ header-img: "img/paris.jpg"
 ---
 
 
-<!-- Calendly badge widget begin -->
-<!-- <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/rdguez-mariano/30min', text: 'Schedule time with me', color: '#0069ff', textColor: '#ffffff', branding: true }); }</script> -->
-<!-- Calendly badge widget end -->
-
 
 <style>
     .google-maps {
@@ -62,7 +56,7 @@ td.toleftcolumn{vertical-align:middle;width: 25%;}
 <table style="width:350px">
   <tr>
     <td class="toleftcolumn" align="right" style="width:150px" >
-        <div style="align:center;" > <img src="/img/mariano2.jpg" alt="Mariano Rodríguez" height="150px" ></div>
+        <div style="align:center;" > <img src="/img/mariano_stationf.jpg" alt="Mariano Rodríguez" height="150px" ></div>
     </td>
     <td class="torightcolumn" align="left">
 <!--         In the following you will find a brief description about me! -->
@@ -81,6 +75,26 @@ Rodríguez Guerra
 </table>
 
 </center>
+
+<!-- Google Calendar Appointment Scheduling begin -->
+<div class="appointment-button-container" align="right">
+  <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+  <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+  <script>
+  (function() {
+    var target = document.currentScript;
+    window.addEventListener('load', function() {
+      calendar.schedulingButton.load({
+        url: 'https://calendar.google.com/calendar/appointments/AcZssZ23xFZaKI1BwnbFvzwbc7lQ2vMw0--yK-oloBc=?gv=true',
+        color: '#0B8043',
+        label: 'Book an appointment',
+        target,
+      });
+    });
+  })();
+  </script>
+</div>
+<!-- end Google Calendar Appointment Scheduling -->
 
 
 <br />
