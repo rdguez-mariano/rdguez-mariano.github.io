@@ -33,6 +33,11 @@ header-img: "img/paris.jpg"
         width: 100% !important;
         height: 100% !important;
     }
+    .profile-image {
+        max-height: 300px;
+        width: auto;
+        object-fit: contain;
+    }
 </style>
 
 
@@ -53,10 +58,20 @@ td.toleftcolumn{vertical-align:middle;width: 25%;}
 </style>
 <br />
 
-<table style="width:350px">
+<style>
+table, th, td {
+  border: 0px solid black;
+  border-collapse: collapse;
+  border-color:inherit;  
+}
+td.torightcolumn{vertical-align:middle;text-align: justify;
+  text-justify: inter-word;}
+td.toleftcolumn{vertical-align:middle;width: 25%;}
+</style>
+<table style="width:400px">
   <tr>
-    <td class="toleftcolumn" align="right" style="width:150px" >
-        <div style="align:center;" > <img src="/img/mariano_stationf.jpg" alt="Mariano Rodríguez" height="150px" ></div>
+    <td class="toleftcolumn" align="right" style="width:350px" >
+        <div style="align:center;" > <img src="/img/mariano_stationf_rect_lq.jpg" alt="Mariano Rodríguez" class="profile-image" ></div>
     </td>
     <td class="torightcolumn" align="left">
 <!--         In the following you will find a brief description about me! -->
@@ -87,7 +102,7 @@ Rodríguez Guerra
       calendar.schedulingButton.load({
         url: 'https://calendar.google.com/calendar/appointments/AcZssZ23xFZaKI1BwnbFvzwbc7lQ2vMw0--yK-oloBc=?gv=true',
         color: '#0B8043',
-        label: 'Book an appointment',
+        label: 'Request a Meeting',
         target,
       });
     });
