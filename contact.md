@@ -4,8 +4,6 @@ title: "about"
 header-img: "img/paris.jpg"
 ---
 
-
-
 <style>
     .google-maps {
         position: relative;
@@ -39,7 +37,6 @@ header-img: "img/paris.jpg"
         object-fit: contain;
     }
 </style>
-
 
 <!-- <center> <h3>Mariano Rodriguez</h3> </center> -->
 
@@ -100,7 +97,7 @@ Rodríguez Guerra
     var target = document.currentScript;
     window.addEventListener('load', function() {
       calendar.schedulingButton.load({
-        url: 'https://calendar.google.com/calendar/appointments/AcZssZ23xFZaKI1BwnbFvzwbc7lQ2vMw0--yK-oloBc=?gv=true',
+        url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ15WfrZ-1PpCDLeKkzOXjErFZVeYiVqj-1AOb788dBOfUsiPnBfeFhNc0ZcnbiBFelxoJ3ahR8U?gv=true',
         color: '#0B8043',
         label: 'Request a Meeting',
         target,
@@ -110,7 +107,6 @@ Rodríguez Guerra
   </script>
 </div>
 <!-- end Google Calendar Appointment Scheduling -->
-
 
 <br />
 
@@ -122,35 +118,41 @@ Rodríguez Guerra
 
 <br />
 
-Timeline
---------------
-- **[Current Situation]** Cofounder and Chief Scientific Officer *(2024 - {{ site.time | date: '%Y' }})* at Freeda.
-- Founder and CTO *(2024 - 2024)* at Nano Quant Services.
-- Machine Learning Engineer *(2023 - 2024)* at Gladia. 
-- Machine Learning Engineer *(2021 - 2023)* at Powder. 
-- Postdoctoral researcher *(2020 - 2021)* at the ENS Paris-Saclay.
-- PhD studies *(2016 - 2020)* at the ENS Paris-Saclay under the supervision of [Jean-Michel Morel](https://sites.google.com/site/jeanmichelmorelcmlaenscachan/) and [Julie Delon](https://delon.wp.imt.fr/).
-- [Master 2 "Mathématiques, Vision, Apprentissage"](http://math.ens-paris-saclay.fr/version-francaise/formations/master-mva/) *(2015 - 2016)* at the ENS Paris-Saclay.
-- [Master 1 "Mathématiques et Modélisation"](https://map5.mi.parisdescartes.fr/presentation/enseignement/) *(2014 - 2015)* at the University Paris Descartes.
-- Three years *(2011 - 2014)* as "Profesor Instructor" at the University of Havana.
-- Four years *(2007 - 2011)* of undergraduate studies in Mathematics at the Faculty of Mathematics and Computer Science of the University of Havana.
+## Timeline
+
+-   **[Current Situation]** Cofounder and Chief Scientific Officer _(2024 - {{ site.time | date: '%Y' }})_ at Freeda.
+-   Founder and CTO _(2024 - 2024)_ at Nano Quant Services.
+-   Machine Learning Engineer _(2023 - 2024)_ at Gladia.
+-   Machine Learning Engineer _(2021 - 2023)_ at Powder.
+-   Postdoctoral researcher _(2020 - 2021)_ at the ENS Paris-Saclay.
+-   PhD studies _(2016 - 2020)_ at the ENS Paris-Saclay under the supervision of [Jean-Michel Morel](https://sites.google.com/site/jeanmichelmorelcmlaenscachan/) and [Julie Delon](https://delon.wp.imt.fr/).
+-   [Master 2 "Mathématiques, Vision, Apprentissage"](https://www.master-mva.com/) _(2015 - 2016)_ at the ENS Paris-Saclay.
+-   [Master 1 "Mathématiques et Modélisation"](https://map5.mi.parisdescartes.fr/presentation/enseignement/) _(2014 - 2015)_ at the University Paris Descartes.
+-   Three years _(2011 - 2014)_ as "Profesor Instructor" at the University of Havana.
+-   Four years _(2007 - 2011)_ of undergraduate studies in Mathematics at the Faculty of Mathematics and Computer Science of the University of Havana.
 
 <br />
 
-Linkedin posts from [Powder](https://www.linkedin.com/company/gustshow)
----------------
+## Where to find me
 
-<!--
+[Freeda](https://www.linkedin.com/company/freedaso/mycompany/) - 7 Imp. Charles Petit, 75011 Paris
+
+<div class="google-maps">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5250.721840094448!2d2.382676876972664!3d48.85132767133105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6720b96b5b097%3A0xf2e6fd57730eaa79!2s7%20Imp.%20Charles%20Petit%2C%2075011%20Paris!5e0!3m2!1sen!2sfr!4v1750500570137!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<br />
+
+## Linkedin posts
+
 <div class="linkedin-class">
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:6980935645632286720/" frameborder="0"></iframe>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7328499792035172352/" frameborder="0"></iframe>
 </div>
 <br />
 
 <div class="linkedin-class">
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:6980923441826643968/" frameborder="0"></iframe>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7330307488564633600/" frameborder="0"></iframe>
 </div>
 <br />
--->
 
 <div class="linkedin-class">
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:6975078188875931648/" frameborder="0"></iframe>
@@ -162,13 +164,12 @@ Linkedin posts from [Powder](https://www.linkedin.com/company/gustshow)
 </div>
 <br />
 
-Where to find me
---------------
-
-<!-- [Freeda](https://www.linkedin.com/company/gladia-io/mycompany/) - 5 Parv. Alan Turing, 75013 Paris -->
-Freeda - 5 Parv. Alan Turing, 75013 Paris
-<div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5252.605706256659!2d2.369203676971786!3d48.8333616713287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67222208823cf%3A0x541ecb63365de48!2sSTATION%20F!5e0!3m2!1sfr!2sfr!4v1738682425844!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<div class="linkedin-class">
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:6980935645632286720/" frameborder="0"></iframe>
 </div>
 <br />
 
+<div class="linkedin-class">
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:6980923441826643968/" frameborder="0"></iframe>
+</div>
+<br />

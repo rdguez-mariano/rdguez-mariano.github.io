@@ -1,2 +1,5 @@
 _site/
 img/imas/not-in
+img/testing
+vendor/
+_sass/
