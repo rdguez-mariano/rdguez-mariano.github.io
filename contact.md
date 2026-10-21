@@ -55,9 +55,9 @@ td.toleftcolumn{vertical-align:middle;width: 25%;}
 </style>
 <br />
 
-<table style="width:400px">
+<table style="width:500px">
   <tr>
-    <td class="toleftcolumn" align="right" style="width:350px" >
+    <td class="toleftcolumn" align="right" style="width:450px" >
         <div style="align:center;" > <img src="/img/mariano_stationf_rect_lq.jpg" alt="Mariano Rodríguez" class="profile-image" ></div>
     </td>
     <td class="torightcolumn" align="left">
