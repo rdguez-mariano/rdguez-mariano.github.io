@@ -90,25 +90,10 @@ Paris, France
 
 </center>
 
-<!-- Google Calendar Appointment Scheduling begin -->
-<div class="appointment-button-container" align="right">
-  <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-  <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
-  <script>
-  (function() {
-    var target = document.currentScript;
-    window.addEventListener('load', function() {
-      calendar.schedulingButton.load({
-        url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ15WfrZ-1PpCDLeKkzOXjErFZVeYiVqj-1AOb788dBOfUsiPnBfeFhNc0ZcnbiBFelxoJ3ahR8U?gv=true',
-        color: '#0B8043',
-        label: 'Request a Meeting',
-        target,
-      });
-    });
-  })();
-  </script>
+<!-- Request a meeting: direct link to the personal Google Calendar schedule -->
+<div align="right">
+  <a class="btn" style="background-color:#0B8043; border-color:#0B8043;" href="https://calendar.app.google/WgYBVXad2ekfaHRH8" target="_blank" rel="noopener">Request a Meeting</a>
 </div>
-<!-- end Google Calendar Appointment Scheduling -->
 
 <br />
 
@@ -129,10 +114,10 @@ Paris, France
 
 ## Where to find me
 
-[Freeda](https://www.linkedin.com/company/freedaso/mycompany/) - 7 Imp. Charles Petit, 75011 Paris
+[Freeda](https://www.linkedin.com/company/freedaso/mycompany/) - 13 R. de Turbigo, 75002 Paris
 
 <div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5250.721840094448!2d2.382676876972664!3d48.85132767133105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6720b96b5b097%3A0xf2e6fd57730eaa79!2s7%20Imp.%20Charles%20Petit%2C%2075011%20Paris!5e0!3m2!1sen!2sfr!4v1750500570137!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.6920726692792!2d2.346482576962455!3d48.86408197133292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e19a3c25037%3A0xd26e6ee255390ea1!2s13%20R.%20de%20Turbigo%2C%2075002%20Paris!5e0!3m2!1sen!2sfr!4v1792578646396!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 <br />
 
