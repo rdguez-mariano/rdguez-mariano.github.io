@@ -47,7 +47,7 @@ header-img: "img/paris.jpg"
 table, th, td {
   border: 0px solid black;
   border-collapse: collapse;
-  border-color:inherit;  
+  border-color:inherit;
 }
 td.torightcolumn{vertical-align:middle;text-align: justify;
   text-justify: inter-word;}
@@ -55,16 +55,6 @@ td.toleftcolumn{vertical-align:middle;width: 25%;}
 </style>
 <br />
 
-<style>
-table, th, td {
-  border: 0px solid black;
-  border-collapse: collapse;
-  border-color:inherit;  
-}
-td.torightcolumn{vertical-align:middle;text-align: justify;
-  text-justify: inter-word;}
-td.toleftcolumn{vertical-align:middle;width: 25%;}
-</style>
 <table style="width:400px">
   <tr>
     <td class="toleftcolumn" align="right" style="width:350px" >
@@ -76,12 +66,24 @@ Mariano
 <br />
 Rodríguez Guerra
 <br />
-<!-- Cuban, French -->
+Co-Founder & CSO, <a href="https://freeda.so">Freeda</a>
+<br />
 <br />
 <a href="mailto:mariano@freeda.so">mariano@freeda.so</a>
 <br />
+<a href="mailto:rdguez.mariano@gmail.com">rdguez.mariano@gmail.com</a>
 <br />
-<a href="http://dev.ipol.im/~rdguez-mariano/fixed_files/short_cv.pdf"> Short CV</a>
++33 7 82 58 82 37
+<br />
+Paris, France
+<br />
+<br />
+<a href="https://www.linkedin.com/in/rdguez-mariano">LinkedIn</a> · <a href="https://github.com/rdguez-mariano">GitHub</a>
+<br />
+<br />
+<a href="{{ site.baseurl }}/files/cv_founder.pdf">CV — Founder / Executive</a>
+<br />
+<a href="{{ site.baseurl }}/files/cv_research.pdf">CV — Research</a>
     </td>
   </tr>
 </table>
@@ -110,22 +112,14 @@ Rodríguez Guerra
 
 <br />
 
-<!-- Curriculum vitae -->
-<!-- ----------- -->
-<!-- [Short Version](http://dev.ipol.im/~rdguez-mariano/fixed_files/short_cv.pdf) -->
-<!-- - [Long Version](http://dev.ipol.im/~rdguez-mariano/fixed_files/cv.pdf) -->
-<!-- - [Full Version](http://dev.ipol.im/~rdguez-mariano/fixed_files/full_cv.pdf) -->
-
-<br />
-
 ## Timeline
 
--   **[Current Situation]** Cofounder and Chief Scientific Officer _(2024 - {{ site.time | date: '%Y' }})_ at Freeda.
--   Founder and CTO _(2024 - 2024)_ at Nano Quant Services.
--   Machine Learning Engineer _(2023 - 2024)_ at Gladia.
--   Machine Learning Engineer _(2021 - 2023)_ at Powder.
--   Postdoctoral researcher _(2020 - 2021)_ at the ENS Paris-Saclay.
--   PhD studies _(2016 - 2020)_ at the ENS Paris-Saclay under the supervision of [Jean-Michel Morel](https://sites.google.com/site/jeanmichelmorelcmlaenscachan/) and [Julie Delon](https://delon.wp.imt.fr/).
+-   **[Current Situation]** Co-Founder and Chief Scientific Officer _(Nov 2024 - {{ site.time | date: '%Y' }})_ at [Freeda](https://freeda.so).
+-   Founder and CTO _(May - Nov 2024)_ at Nano Quant Services.
+-   Founding Machine Learning Engineer, Speech _(Jan 2023 - May 2024)_ at [Gladia](https://www.linkedin.com/company/gladia).
+-   Machine Learning Engineer, Video & Multimodal _(Jul 2021 - Jan 2023)_ at [Powder](https://www.powder.dev).
+-   Postdoctoral researcher _(Jul 2020 - Jul 2021)_ at the [ENS Paris-Saclay](https://ens-paris-saclay.fr/) (industry-funded research, advisors incl. Gabriele Facciolo).
+-   PhD studies _(2016 - 2020)_ at the [ENS Paris-Saclay](https://ens-paris-saclay.fr/) under the supervision of [Jean-Michel Morel](https://sites.google.com/site/jeanmichelmorelcmlaenscachan/) and [Julie Delon](https://delon.wp.imt.fr/).
 -   [Master 2 "Mathématiques, Vision, Apprentissage"](https://www.master-mva.com/) _(2015 - 2016)_ at the ENS Paris-Saclay.
 -   [Master 1 "Mathématiques et Modélisation"](https://map5.mi.parisdescartes.fr/presentation/enseignement/) _(2014 - 2015)_ at the University Paris Descartes.
 -   Three years _(2011 - 2014)_ as "Profesor Instructor" at the University of Havana.
@@ -165,7 +159,7 @@ Rodríguez Guerra
 <br />
 
 <div class="linkedin-class">
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6859108743213400065" frameborder="0"></iframe>
+<iframe src="https://www.linkedin.com/embed/feed/share/6859108743213400065" frameborder="0"></iframe>
 </div>
 <br />
 

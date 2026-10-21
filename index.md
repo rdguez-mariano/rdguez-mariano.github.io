@@ -5,30 +5,22 @@ header-img: "/img/paris.jpg"
 ---
 
 
-> Hi ! I'm a Mathematician, Computer Scientist and Entrepreuneur.
-I was a Postdoctoral researcher at the <a href ="https://centreborelli.cnrs.fr/">Centre Borelli</a>, <a href ="https://ens-paris-saclay.fr/">ENS Paris-Saclay</a> and a PhD Student in applied mathematics from 2016-2020 under the supervision of <a href="https://sites.google.com/site/jeanmichelmorelcmlaenscachan/">Jean-Michel Morel</a> and <a href="https://delon.wp.imt.fr/">Julie Delon</a>.
-<!-- My academic background is based in Mathematics (undergraduate studies and Master 1) and Computer Science (College and Master 2). -->
-Nowadays my research focuses mainly on Large Language Models, Computer Vision and Machine Learning in general.
-> 
+> Hi! I'm **Mariano Rodríguez** — Co-Founder and Chief Scientific Officer at [Freeda](https://freeda.so), an applied-AI research leader who converts research into shipped, revenue-bearing product.
+>
+> At Freeda I own the scientific strategy and the AI roadmap, and lead a team of 3 ML engineers building AI compliance review for the construction industry. Every layer of the AI stack — perception models, annotation tooling, document intelligence, agentic verification — was shipped by that team under my direction.
+>
+> Previously I was founding ML engineer at [Gladia](https://www.linkedin.com/company/gladia) (speech-to-text API, later acquired by OVH), ML engineer at [Powder](https://www.powder.dev) (highlight detection in gameplay video), and sole technical founder of Nano Quant Services. PhD and postdoc in computer vision at [ENS Paris-Saclay](https://ens-paris-saclay.fr/), with peer-reviewed publications at WACV and CVPR. Six years turning applied research into systems that hold up under production load and customer scrutiny.
+>
 > Please, feel free to take a look around!
-> 
+>
 > Mariano Rodríguez
 
 <br />
 
+## Main pages
 
-<!--Main pages
----
-
-- [Research & Teaching Activities](/research).
+- [Research & Experience](/research) — industry research (Freeda, Gladia, Powder), academic work, awards and teaching.
 <p></p>
-- [Publications](/publications).
+- [Publications](/publications) — full list with BibTeX.
 <p></p>
-- [Contact details](/contact).
-<p></p>
-- [IMAS on IPOL](/pages/hyperdescriptors). Optimized Image Matching by Affine Simulations (IMAS) methods allowing to capture viewpoint changes between two images.
-<p></p>
-- [SIFT-AID](/pages/sift-aid). A fast affine invariant method based on convolutional neural networks.
-<p></p>
-- [LOCATE](/pages/locate). Robust estimation of local affine maps and its applications to image matching.
- -->
+- [About & Contact](/contact) — CV, timeline and how to reach me.
