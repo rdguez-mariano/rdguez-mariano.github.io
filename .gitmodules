@@ -1,0 +1,3 @@
+[submodule "cv_latex"]
+	path = cv_latex
+	url = git@github.com:rdguez-mariano/cv_latex.git

@@ -10,3 +10,9 @@ linkedin_username: rdguez-mariano
 
 show_downloads: true
 theme: jekyll-theme-hacker
+
+# Never copy the private CV submodule (or build tooling) into the site output,
+# even for local builds — only files/ is public.
+exclude:
+  - cv_latex
+  - scripts
