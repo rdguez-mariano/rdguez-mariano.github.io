@@ -97,5 +97,5 @@ bundle install
 ## Launch the local server
 
 ```bash
-bundle exec jekyll serve
+bundle exec jekyll serve --port 4001
 ```
