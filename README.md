@@ -13,46 +13,53 @@ Personal / professional website (Jekyll, `jekyll-theme-hacker`), hosted on GitHu
 | `contact.md` | Photo, contact details, CV links, timeline, office location, related posts. |
 | `pages/*.md` | Academic project pages (IMAS, LOCATE, SIFT-AID, ADI-MAS, ...). |
 | `files/` | Static documents served publicly (the CV PDFs). |
-| `cv_latex/` | **Private git submodule** — the CV repo (source + LaTeX + build). Never published; only its built PDFs land in `files/`. |
-| `scripts/sync_cv.sh` | Rebuilds the CV PDFs from the submodule and copies them into `files/`. |
+| `cv_latex/` | **Local-only clone of the private CV repo** (source + LaTeX + build). Gitignored — never committed, never published; only its built PDFs land in `files/`. |
+| `scripts/sync_cv.sh` | Rebuilds the CV PDFs from the local `cv_latex/` clone and copies them into `files/`. |
 | `_bibtex/` | BibTeX source of the publications page. |
 | `img/`, `js/`, `assets/`, `vendor/` | Static assets. |
 
-## CV as a private git submodule
+## CV as a private repo (local-only clone)
 
-The CV lives in a **separate, private** repo (`git@github.com:rdguez-mariano/cv_latex.git`)
-that is embedded here as a git submodule under `cv_latex/`. `main.md` in that repo is the
-single source of truth for all CV content.
+The CV lives in a **separate, private** repo (`git@github.com:rdguez-mariano/cv_latex.git`).
+`main.md` in that repo is the single source of truth for all CV content.
 
-**What the public sees — and doesn't:**
+This site repo does **not** embed it (a submodule would break public checkouts — GitHub
+Pages can't clone a private repo). Instead, `cv_latex/` is a **local-only clone** of the
+private repo, kept inside this folder and covered by `.gitignore`:
 
-- GitHub Pages does **not** check out submodules, so nothing from `cv_latex/` (source,
-  LaTeX, photos) is ever published.
+- It is **never committed** to this public repo and **never published**: Jekyll's
+  `exclude:` in `_config.yml` keeps it out of the built site, and `.gitignore` keeps it
+  out of git entirely.
 - The **only** public CV artifacts are the committed PDFs in `files/`
   (`cv_founder.pdf`, `cv_research.pdf`).
-- The private repo's **URL** and the pinned commit SHA are visible in the public
-  `.gitmodules` / git tree — this is inherent to submodules. It does not expose content,
-  only that a private repo of that name exists under this account.
-- Anyone cloning this repo needs access to the private repo to materialize `cv_latex/`:
-  `git clone --recurse-submodules <this-repo>` (or `git submodule update --init` afterwards).
-  Without that access, `cv_latex/` is simply an empty directory — the site still builds
-  and serves the PDFs from `files/`.
+
+**Getting the folder in place** (one-time, needs SSH access to the private repo):
+
+```bash
+git clone git@github.com:rdguez-mariano/cv_latex.git cv_latex
+```
+
+…or simply run `./scripts/sync_cv.sh` — it does this clone for you if `cv_latex/` is
+missing. Without the private repo's access, `cv_latex/` just stays empty: the site still
+builds fine and serves the PDFs from `files/`.
 
 **Syncing the site with the CV** (keeps both in lockstep):
 
-1. In the primary CV working copy (e.g. `~/unispace/cv_latex`): edit `main.md`,
-   regenerate the affected `.tex` variant(s), commit and **push** to origin.
+1. In `cv_latex/`: edit `main.md`, regenerate the affected `.tex` variant(s), commit
+   and **push** to origin.
 2. In this repo:
    ```bash
    ./scripts/sync_cv.sh
    ```
-   This pulls the latest **pushed** commit of the submodule, rebuilds both PDFs
-   (`pdflatex` ×2 each), enforces the page budgets (founder ≤ 2, research ≤ 3) and copies
-   the PDFs into `files/`.
-3. Review the diff under `files/`, then commit and push this repo.
+   This refreshes the clone, verifies it is clean and at `origin/master`, rebuilds both
+   PDFs (`pdflatex` ×2 each), enforces the page budgets (founder ≤ 2, research ≤ 3) and
+   copies the PDFs into `files/`.
+3. Review the diff under `files/`, then commit and push this repo (only `files/*.pdf` —
+   `cv_latex/` is gitignored).
 
-Only **pushed** CV commits are ever published — unpushed local CV work is invisible to
-the sync step by design.
+Only **pushed** CV commits are ever published: the script refuses to build if
+`cv_latex/` has uncommitted/unpushed work, so unpushed local CV work can't leak into the
+site by accident.
 
 ## Content sources
 
@@ -60,8 +67,8 @@ the sync step by design.
   When the CV changes, also propagate the relevant facts to `index.md`, `research.md` and
   the timeline in `contact.md`.
 - **Publications**: keep `_bibtex/rdguez-mariano.bib` in sync with the CV's publication list.
-- **CV PDFs in `files/`**: built artefacts of the `cv_latex/` submodule, refreshed via
-  `./scripts/sync_cv.sh` (never hand-edited).
+- **CV PDFs in `files/`**: built artefacts of the local `cv_latex/` clone of the private
+  CV repo, refreshed via `./scripts/sync_cv.sh` (never hand-edited).
 
 ## Requirements
 ```bash

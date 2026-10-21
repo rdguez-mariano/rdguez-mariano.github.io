@@ -3,3 +3,6 @@ img/imas/not-in
 img/testing
 vendor/
 _sass/
+
+# Local-only clone of the PRIVATE cv repo — never commit it (see README)
+cv_latex/

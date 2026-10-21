@@ -66,16 +66,8 @@ Mariano
 <br />
 Rodríguez Guerra
 <br />
-Co-Founder & CSO, <a href="https://freeda.so">Freeda</a>
-<br />
-<br />
-<a href="mailto:mariano@freeda.so">mariano@freeda.so</a>
 <br />
 <a href="mailto:rdguez.mariano@gmail.com">rdguez.mariano@gmail.com</a>
-<br />
-+33 7 82 58 82 37
-<br />
-Paris, France
 <br />
 <br />
 <a href="https://www.linkedin.com/in/rdguez-mariano">LinkedIn</a> · <a href="https://github.com/rdguez-mariano">GitHub</a>
@@ -83,7 +75,7 @@ Paris, France
 <br />
 <a href="{{ site.baseurl }}/files/cv_founder.pdf">CV — Founder / Executive</a>
 <br />
-<a href="{{ site.baseurl }}/files/cv_research.pdf">CV — Research</a>
+<a href="{{ site.baseurl }}/files/cv_research.pdf">CV — Research Engineer</a>
     </td>
   </tr>
 </table>
