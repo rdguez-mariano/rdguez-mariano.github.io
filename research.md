@@ -11,9 +11,9 @@ header-img: "/img/paris.jpg"
 ## Industry research
 
 ### Freeda — AI compliance review for the construction industry
-**Co-Founder & Chief Scientific Officer** — *Nov 2024 – present, [Freeda](https://freeda.so), Paris*
+**Co-Founder & Chief Scientific Officer** — *Nov 2024 – Nov 2026, [Freeda](https://freeda.so), Paris*
 
-I own the scientific strategy and the AI roadmap, and lead a team of 3 ML engineers. Every layer of Freeda's AI stack was shipped by that team under my direction:
+I owned the scientific strategy and the AI roadmap, and led a team of 3 ML engineers. Every layer of Freeda's AI stack was shipped by that team under my direction:
 
 - **Perception.** Up to three generations of plan-understanding models (RF-DETR, YOLO-OBB, SegFormer), all improving on the Roboflow baseline, alongside template matching and SAM 2 / SAM 3 one-click area selection.
 - **Plan description layer.** A structured record of measurements derived from detected shapes, readable by agents and humans alike — one representation that stops every downstream step from re-deriving geometry.
@@ -22,7 +22,7 @@ I own the scientific strategy and the AI roadmap, and lead a team of 3 ML engine
 - **Agentic verification.** Recipe-based: an agent follows a human-authored recipe as its roadmap and a human is asked only at final sign-off, with skills that write comments and annotations directly into the delivered PDFs.
 - **Codegen.** Autonomous coding agents used for dynamic custom workflows — e.g. customer-facing interactive reports built as mini-apps: single-page HTML emitted from a real React + Tailwind app.
 - **Prompt optimisation.** Automated prompt improvement adapted from a Microsoft method, removing manual prompt iteration as the bottleneck on quality.
-- **Infra / DevOps.** I own the runtime these features live on: frontend, backend, CI/CD, NVIDIA Triton Inference Server and Celery workers — the first working prototype ran at less than EUR 300/month on a single NVIDIA L4 GPU.
+- **Infra / DevOps.** I owned the runtime these features live on: frontend, backend, CI/CD, NVIDIA Triton Inference Server and Celery workers — the first working prototype ran at less than EUR 300/month on a single NVIDIA L4 GPU.
 
 *Product impact: took the compliance workflows, engine and infrastructure from blank page to production in a few months, cutting manual plan-review time 3× versus market standards; live with 10+ paying customers within 10 months.*
 
