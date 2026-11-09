@@ -75,7 +75,7 @@ Rodríguez Guerra
 <br />
 <a href="{{ site.baseurl }}/files/cv_founder.pdf">CV — Founder / Executive</a>
 <br />
-<a href="{{ site.baseurl }}/files/cv_research.pdf">CV — Research Engineer</a>
+<a href="{{ site.baseurl }}/files/cv_engineer.pdf">CV — Engineer</a>
     </td>
   </tr>
 </table>
@@ -91,7 +91,7 @@ Rodríguez Guerra
 
 ## Timeline
 
--   **[Current Situation]** Co-Founder and Chief Scientific Officer _(Nov 2024 - {{ site.time | date: '%Y' }})_ at [Freeda](https://freeda.so).
+-   **[Current Situation]** Co-Founder and Chief Scientific Officer _(Nov 2024 - Nov 2026)_ at [Freeda](https://freeda.so).
 -   Founder and CTO _(May - Nov 2024)_ at Nano Quant Services.
 -   Founding Machine Learning Engineer, Speech _(Jan 2023 - May 2024)_ at [Gladia](https://www.linkedin.com/company/gladia).
 -   Machine Learning Engineer, Video & Multimodal _(Jul 2021 - Jan 2023)_ at [Powder](https://www.powder.dev).

@@ -31,7 +31,7 @@ private repo, kept inside this folder and covered by `.gitignore`:
   `exclude:` in `_config.yml` keeps it out of the built site, and `.gitignore` keeps it
   out of git entirely.
 - The **only** public CV artifacts are the committed PDFs in `files/`
-  (`cv_founder.pdf`, `cv_research.pdf`).
+  (`cv_founder.pdf`, `cv_engineer.pdf`).
 
 **Getting the folder in place** (one-time, needs SSH access to the private repo):
 

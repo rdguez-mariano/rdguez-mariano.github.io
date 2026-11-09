@@ -45,30 +45,31 @@ echo "cv_latex @ $(git log -1 --oneline)"
 
 # --- 2. Rebuild the PDFs ----------------------------------------------------
 # Run twice per variant so hyperref/aux links resolve (see cv_latex README).
-pdflatex -interaction=nonstopmode -halt-on-error main_founder.tex  >/dev/null
-pdflatex -interaction=nonstopmode -halt-on-error main_founder.tex  >/dev/null
-pdflatex -interaction=nonstopmode -halt-on-error main_research.tex >/dev/null
-pdflatex -interaction=nonstopmode -halt-on-error main_research.tex >/dev/null
+pdflatex -interaction=nonstopmode -halt-on-error main_founder.tex   >/dev/null
+pdflatex -interaction=nonstopmode -halt-on-error main_founder.tex   >/dev/null
+pdflatex -interaction=nonstopmode -halt-on-error main_engineer.tex  >/dev/null
+pdflatex -interaction=nonstopmode -halt-on-error main_engineer.tex  >/dev/null
 
 # Page budgets (hard rules from the cv_latex README)
 if command -v pdfinfo >/dev/null 2>&1; then
-  pf="$(pdfinfo main_founder.pdf  | awk '/^Pages/ {print $2}')"
-  pr="$(pdfinfo main_research.pdf | awk '/^Pages/ {print $2}')"
-  echo "Page counts: founder=${pf} (budget 2), research=${pr} (budget 3)"
+  pf="$(pdfinfo main_founder.pdf   | awk '/^Pages/ {print $2}')"
+  pe="$(pdfinfo main_engineer.pdf  | awk '/^Pages/ {print $2}')"
+  echo "Page counts: founder=${pf} (budget 2), engineer=${pe} (budget 3)"
   [ "${pf}" -le 2 ] || { echo "ERROR: founder variant exceeds its 2-page budget" >&2; exit 1; }
-  [ "${pr}" -le 3 ] || { echo "ERROR: research variant exceeds its 3-page budget" >&2; exit 1; }
+  [ "${pe}" -le 3 ] || { echo "ERROR: engineer variant exceeds its 3-page budget" >&2; exit 1; }
 fi
 
 # --- 3. Copy into the public files/ directory -------------------------------
 cd "${ROOT}"
 mkdir -p files
-cp cv_latex/main_founder.pdf  files/cv_founder.pdf
-cp cv_latex/main_research.pdf files/cv_research.pdf
-echo "Copied: files/cv_founder.pdf, files/cv_research.pdf"
+cp cv_latex/main_founder.pdf   files/cv_founder.pdf
+cp cv_latex/main_engineer.pdf  files/cv_engineer.pdf
+rm -f files/cv_research.pdf
+echo "Copied: files/cv_founder.pdf, files/cv_engineer.pdf"
 
 # --- 4. What to do next -------------------------------------------------------
 echo
 echo "Review the changes, then commit and push (cv_latex/ is gitignored — only files/ ships):"
-echo "  git add files/cv_founder.pdf files/cv_research.pdf"
+echo "  git add files/cv_founder.pdf files/cv_engineer.pdf"
 echo "  git commit -m 'chore: sync CV PDFs'"
 echo "  git push"
